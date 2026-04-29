@@ -2,16 +2,16 @@
 
 # Awesome LLM Bench
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Sync Leaderboards](https://github.com/leoncuhk/awesome-llm-bench/actions/workflows/sync.yml/badge.svg)](https://github.com/leoncuhk/awesome-llm-bench/actions/workflows/sync.yml)
+**Top 10 of the most reliable LLM leaderboards, auto-synced daily.**
+
+[![Sync](https://github.com/leoncuhk/awesome-llm-bench/actions/workflows/sync.yml/badge.svg)](https://github.com/leoncuhk/awesome-llm-bench/actions/workflows/sync.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-red.svg)](README.zh-CN.md)
 
-**A curated, auto-synced mirror of the most reliable LLM leaderboards and AI coding-tool dynamics.**
-
 <!-- LAST_SYNC -->Last sync: **2026-04-29** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
-*Top 10 only · Updated daily · Sourced from [benchlm.ai](https://benchlm.ai)*
+📊 Data source: **[benchlm.ai](https://benchlm.ai)** — please visit them for full leaderboards (43+ models per benchmark), pricing, and methodology.  
+This repo is a **Top 10 mirror with attribution**, not a replacement.
 
 </div>
 
@@ -19,35 +19,13 @@
 
 ## Why this list?
 
-The LLM evaluation landscape is noisy. LMArena reflects user preference, not capability; vendor-published numbers are cherry-picked; aggregate boards lag months behind frontier model releases. This repository mirrors **[benchlm.ai](https://benchlm.ai)** — the most reliable, frequently-updated, methodologically-honest aggregator we have found — and distills the **Top 10** of each high-signal benchmark for fast scanning.
-
-**What you get:**
-- Top 10 of 7 high-signal benchmarks across **Agentic / Coding / Reasoning / Knowledge**
-- Curated AI **CLI / IDE tool** landscape (Claude Code, Cursor, Cline, Aider, ...)
-- Auto-synced daily via GitHub Actions; historical data preserved as JSON in [`data/`](data/)
-- English (this file) + [中文版](README.zh-CN.md)
-
-**What this is not:** an evaluation, a re-ranking, or a replacement for benchlm.ai. We are a mirror with attribution. For full leaderboards (43+ models per benchmark), pricing, methodology, and dashboards, **always go to [benchlm.ai](https://benchlm.ai)** — they do the hard work.
-
-## Contents
-
-- [Top 10 Leaderboards](#top-10-leaderboards)
-  - [Agentic](#agentic) · [Coding](#coding) · [Reasoning](#reasoning) · [Knowledge](#knowledge)
-- [AI Coding Tools Landscape](#ai-coding-tools-landscape)
-- [Methodology Notes](#methodology-notes)
-- [Limitations & Honest Caveats](#limitations--honest-caveats)
-- [How to Read These Numbers](#how-to-read-these-numbers)
-- [Contributing](#contributing)
-- [License](#license)
+LMArena measures preference, not capability. Vendor numbers are cherry-picked. Most aggregators lag. **[benchlm.ai](https://benchlm.ai)** is the most honest, frequently-updated aggregator I've found — this repo distills the **Top 10** of each high-signal benchmark for fast scanning, plus a curated AI coding-tools landscape they don't track. EN here, [中文版 →](README.zh-CN.md)
 
 ---
 
-## Top 10 Leaderboards
+## 🤖 Agentic
 
-### Agentic
-
-#### Terminal-Bench 2.0
-> Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.
+### Terminal-Bench 2.0 — *multi-step CLI workflows*
 
 <!-- AUTO:START slug=terminalBench2 lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -66,8 +44,7 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 *Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-04-28 · Total models: 17*
 <!-- AUTO:END slug=terminalBench2 -->
 
-#### OSWorld-Verified
-> Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.
+### OSWorld-Verified — *desktop GUI computer-use*
 
 <!-- AUTO:START slug=osWorldVerified lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -86,8 +63,7 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 *Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-04-28 · Total models: 18*
 <!-- AUTO:END slug=osWorldVerified -->
 
-#### BrowseComp
-> Web-research agents — search, inspect sources, return correct answers.
+### BrowseComp — *web research agents*
 
 <!-- AUTO:START slug=browseComp lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -106,10 +82,9 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 *Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-04-28 · Total models: 21*
 <!-- AUTO:END slug=browseComp -->
 
-### Coding
+## 💻 Coding
 
-#### SWE-bench Verified
-> Real GitHub issues in popular Python repos. The gold standard for AI coding agents.
+### SWE-bench Verified — *real GitHub issues, gold standard*
 
 <!-- AUTO:START slug=sweVerified lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -128,8 +103,7 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 *Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-04-28 · Total models: 43*
 <!-- AUTO:END slug=sweVerified -->
 
-#### LiveCodeBench
-> Contamination-free code generation, fresh problems sampled continuously.
+### LiveCodeBench — *contamination-free code generation*
 
 <!-- AUTO:START slug=liveCodeBench lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -148,10 +122,9 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 *Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-04-28 · Total models: 13*
 <!-- AUTO:END slug=liveCodeBench -->
 
-### Reasoning
+## 🧠 Reasoning
 
-#### ARC-AGI-2
-> Abstraction and reasoning grid puzzles — frontier general intelligence test.
+### ARC-AGI-2 — *abstraction & reasoning puzzles*
 
 <!-- AUTO:START slug=arcAgi2 lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -170,10 +143,9 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 *Source: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · Updated 2026-04-28 · Total models: 10*
 <!-- AUTO:END slug=arcAgi2 -->
 
-### Knowledge
+## 📚 Knowledge
 
-#### Humanity's Last Exam (HLE)
-> Expert-level questions across all academic domains, designed to be hard.
+### Humanity's Last Exam (HLE) — *expert questions across all domains*
 
 <!-- AUTO:START slug=hle lang=en -->
 | Rank | Model | Provider | License | Score |
@@ -194,76 +166,67 @@ The LLM evaluation landscape is noisy. LMArena reflects user preference, not cap
 
 ---
 
-## AI Coding Tools Landscape
+## 🛠 AI Coding Tools
 
-A hand-curated list of the AI CLI/IDE tools that practitioners actually ship code with. See [tools/ai-coding-tools.md](tools/ai-coding-tools.md) for the full table with notes, update cadence, and feature flags.
+The tools practitioners actually ship code with. Full table with selection criteria → [tools/ai-coding-tools.md](tools/ai-coding-tools.md).
 
-| Tool | Form factor | Provider | Pricing model | Notes |
-| :-- | :-- | :-- | :-- | :-- |
-| [Claude Code](https://www.anthropic.com/claude-code) | CLI + IDE plugins | Anthropic | Subscription (Pro/Max) + API | Deep agent loop, hooks, sub-agents, slash commands |
-| [Cursor](https://cursor.com) | IDE (VS Code fork) | Anysphere | Subscription + API | Composer mode, Tab completion, multi-model |
-| [Windsurf](https://windsurf.com) | IDE (VS Code fork) | Codeium | Subscription + API | Cascade flow, multi-file edits |
-| [Cline](https://cline.bot) | VS Code extension | Open source | BYOK | Plan/Act modes, MCP support |
-| [Roo Code](https://roocode.com) | VS Code extension | Open source | BYOK | Cline fork with custom modes |
-| [Aider](https://aider.chat) | CLI | Open source | BYOK | Git-native, mature, model-agnostic |
-| [Codex CLI](https://github.com/openai/codex) | CLI | OpenAI | API | Official OpenAI agent CLI |
-| [Continue](https://continue.dev) | VS Code / JetBrains | Open source | BYOK | Customizable assistants |
-| [Zed AI](https://zed.dev) | IDE | Zed | Subscription + API | Built-in to fast Rust editor |
-| [GitHub Copilot](https://github.com/features/copilot) | IDE plugins + CLI | GitHub/MS | Subscription | Most-deployed assistant |
-| [Sourcegraph Cody](https://sourcegraph.com/cody) | IDE plugins | Sourcegraph | Subscription | Codebase-aware (graph context) |
-| [Replit Agent](https://replit.com/ai) | Cloud IDE | Replit | Subscription | End-to-end app generation |
-| [Devin](https://devin.ai) | Cloud agent | Cognition | Subscription | Autonomous SWE agent |
-| [Tabnine](https://tabnine.com) | IDE plugins | Tabnine | Subscription | On-prem / privacy-first option |
+| Tool | Form | Backed by | Why it matters |
+| :-- | :-- | :-- | :-- |
+| [Claude Code](https://www.anthropic.com/claude-code) | CLI + IDE plugins | Anthropic | Deep agent loop, hooks, sub-agents, MCP, skills |
+| [Cursor](https://cursor.com) | IDE (VS Code fork) | Anysphere | Composer multi-file edit, fastest Tab completion |
+| [Windsurf](https://windsurf.com) | IDE (VS Code fork) | Codeium → OpenAI | Cascade flow, supercomplete |
+| [Codex CLI](https://github.com/openai/codex) | CLI | OpenAI | Official OpenAI agent CLI, sandboxed exec |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | CLI | Google | Built-in Search grounding, generous free tier |
+| [Aider](https://aider.chat) | CLI | Open source | Git-native diffs, repo-map, mature, BYOK |
+| [Cline](https://cline.bot) | VS Code ext | Open source | Plan/Act modes, MCP, browser use, BYOK |
+| [Roo Code](https://roocode.com) | VS Code ext | Open source | Cline fork with custom agent modes |
+| [Continue](https://continue.dev) | VS Code/JetBrains | Open source | Customizable assistants, BYOK |
+| [Zed AI](https://zed.dev) | IDE | Zed | Built into the fastest editor (Rust) |
+| [GitHub Copilot](https://github.com/features/copilot) | IDE plugins + CLI | GitHub | Largest deployment, best IDE coverage |
+| [Sourcegraph Cody](https://sourcegraph.com/cody) | IDE plugins | Sourcegraph | Code-graph context, repo-scale awareness |
+| [Devin](https://devin.ai) | Cloud agent | Cognition | Long-running autonomous SWE agent |
+| [Replit Agent](https://replit.com/ai) | Cloud IDE | Replit | End-to-end app generation in browser |
 
 ---
 
-## Methodology Notes
+## How to read these numbers
 
-**How benchlm.ai ranks models.** They use weighted category scores: Agentic 22%, Coding 20%, Reasoning 17%, Multimodal 12%, Knowledge 12%, Multilingual 7%, Instruction Following 5%, Math 5%. Each benchmark within a category contributes a sub-weight (e.g., SWE-bench Verified is 13% of the Coding category). Benchmarks are tagged with **freshness state** (`Current` / `Refreshing` / `Display only`) so you can tell at a glance whether a number is still load-bearing or stale. See the [BenchLM methodology page](https://benchlm.ai/methodology) for the full scoring policy.
+- **Don't compare across benchmarks** — different scales, different ceilings.
+- **Look at the spread.** Top 10 within 2–3 points = saturating, differences are noise. 10+ point lead = genuinely ahead.
+- **Check the date** in the source link. A 2025 benchmark may not include the latest models.
+- **For your use case, run your own eval.** Public benchmarks measure averages on someone else's tasks.
 
-**Why we mirror them rather than build our own.** Maintaining a leaderboard well is a full-time job: source verification, freshness audits, contamination checks, eval-script versioning, methodology disclosures. benchlm.ai does this seriously. We add value by (a) distilling to Top 10 for quick scanning, (b) pairing with the AI tools landscape they don't track, and (c) providing a Chinese version.
+## Caveats
 
-**Update cadence.** A GitHub Actions workflow fetches the source pages daily at 02:00 UTC, parses the leaderboard, and commits to [`data/`](data/) only when something changes. The commit message names what changed (e.g., `chore(sync): SWE-Verified leader changed from X to Y`).
+- **benchlm.ai is also an aggregator with judgment** (category weights, inclusion). I mirror their judgment because it's the best I've found, not because it's objective truth.
+- **Benchmark contamination** is real and growing. Treat any single benchmark with skepticism; consensus across multiple is the signal.
+- **Model identity drift** — vendors silently update models behind the same name. Scores from different dates aren't strictly comparable.
 
-## Limitations & Honest Caveats
+---
 
-- **benchlm.ai is also an aggregator with judgment calls** — category weights are subjective, benchmark inclusion is editorial. We mirror their judgment because it's the best we've found, not because it's objective truth.
-- **"Display only" benchmarks** (GAIA, BFCL v4, FrontierMath, ...) are intentionally excluded from this mirror until they have full verified leaderboards on benchlm.ai. Including partial snapshots would mislead.
-- **Benchmark contamination** is a real and growing problem. Even SWE-bench Verified isn't immune — model providers have visibility into the issues. Treat any single benchmark with skepticism; consensus across multiple is the signal.
-- **Model identity drift** — vendors silently update models behind the same name. A score from 2026-01 and a score from 2026-04 for "GPT-5.3" may not be the same model.
-- **Vendor self-reports vs. independent eval** — benchlm.ai is moving toward independent verification but legacy rows may still be vendor-reported. They expose this via the freshness tag; we surface it in the JSON but not yet in the table.
+## Data source & attribution
 
-## How to Read These Numbers
+All leaderboard data is mirrored from **[benchlm.ai](https://benchlm.ai)** with permission of public access and full attribution. Each table links back to the canonical page. Excluded by design: benchmarks tagged `Display only` on benchlm.ai itself (GAIA, BFCL v4, FrontierMath, ...) — they have incomplete public snapshots and including them would mislead.
 
-1. **Don't compare across benchmarks.** A 93% on SWE-Verified and a 64% on HLE are not on the same scale. Each benchmark has its own ceiling.
-2. **Look at the spread.** When the top 10 are clustered within 2–3 points, the benchmark is saturating — small differences are noise. When the top is 10+ points above mid-tier, the leader is genuinely ahead.
-3. **Filter by license** if open-source matters to you. The table shows `Closed` / `Open` for each row.
-4. **Check the date** in the source link. Benchmarks refresh asynchronously; a 2025-vintage benchmark may not reflect the latest models.
-5. **For your own use case, run your own eval.** Public benchmarks measure averages on someone else's tasks. Your task is your task.
-
-## Contributing
-
-PRs welcome for:
-- **Adding a benchmark**: edit [`scripts/benchmarks.yaml`](scripts/benchmarks.yaml) with the camelCase slug used by benchlm.ai (e.g., `mmlu`, `aimE2025`). Re-run `python scripts/fetch_benchmark.py --slug <new>` to verify the parser handles it.
-- **Updating the AI tools landscape**: edit [`tools/ai-coding-tools.md`](tools/ai-coding-tools.md). Keep the bar high — only tools with meaningful adoption.
-- **Translation fixes** for [`README.zh-CN.md`](README.zh-CN.md).
-- **Reporting a parse failure** as an issue with the slug and the date.
-
-Please **do not** PR re-rankings, removed attribution, or scraped content beyond the Top 10.
+For full leaderboards (43+ models per benchmark), pricing, methodology, dashboards, and category weights, **always go to [benchlm.ai](https://benchlm.ai)**.
 
 ## Related
 
-- 📊 [benchlm.ai](https://benchlm.ai) — the canonical source (go here for full leaderboards)
-- 🧪 [Awesome Quant AI](https://github.com/leoncuhk/awesome-quant-ai) — sister list, focused on quant + AI
+- 📊 [benchlm.ai](https://benchlm.ai) — canonical source
+- 🧪 [Awesome Quant AI](https://github.com/leoncuhk/awesome-quant-ai) — sister list
 - 🤖 [Artificial Analysis](https://artificialanalysis.ai/) — alternative aggregator (price/perf focus)
-- 🏟 [LMArena](https://lmarena.ai/) — pairwise human preference (different signal, not capability)
+- 🏟 [LMArena](https://lmarena.ai/) — pairwise human preference
+
+## Contributing
+
+PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Add a benchmark by editing `scripts/benchmarks.yaml`, add a tool by editing `tools/ai-coding-tools.md`. Keep the bar high: only `Current` / `Refreshing` benchmarks, only tools with real adoption.
 
 ## License
 
-MIT for the curation, code, and original commentary. The leaderboard data is mirrored from benchlm.ai with attribution; consult their site for their data terms.
+[MIT](LICENSE) for the curation, code, and original commentary. Leaderboard data is mirrored from benchlm.ai — see their terms for data use.
 
 ---
 
 <div align="center">
-<sub>Maintained by <a href="https://github.com/leoncuhk">@leoncuhk</a> · Sister project to <a href="https://github.com/leoncuhk/awesome-quant-ai">awesome-quant-ai</a></sub>
+<sub>By <a href="https://github.com/leoncuhk">@leoncuhk</a> · Sister: <a href="https://github.com/leoncuhk/awesome-quant-ai">awesome-quant-ai</a></sub>
 </div>
