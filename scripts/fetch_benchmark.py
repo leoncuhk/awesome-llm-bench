@@ -200,6 +200,21 @@ def main() -> int:
         try:
             result = fetch_one(item)
             out = DATA_DIR / f"{slug}.json"
+            # Only rewrite if substantive content changed (ignore fetched_at).
+            # Otherwise daily runs would create noisy diffs every time.
+            if out.exists():
+                try:
+                    prev = json.loads(out.read_text(encoding="utf-8"))
+                    keys_to_compare = ("top10", "updated_at", "total_models",
+                                       "display", "category", "blurb",
+                                       "blurb_zh", "source_url")
+                    if all(prev.get(k) == result.get(k) for k in keys_to_compare):
+                        n = len(result["top10"])
+                        print(f"[skip] {slug}: unchanged (top {n}, "
+                              f"updated {result['updated_at']})")
+                        continue
+                except (OSError, json.JSONDecodeError):
+                    pass
             out.write_text(json.dumps(result, indent=2, ensure_ascii=False) + "\n",
                            encoding="utf-8")
             n = len(result["top10"])
