@@ -20,7 +20,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 
 ## About
 
-The LLM evaluation landscape is noisy. LMArena measures preference, not capability; vendor-published numbers are cherry-picked; most aggregators lag months behind frontier model releases. [benchlm.ai](https://benchlm.ai) is the most honest, frequently-updated aggregator I have found. This repository distills the **Top 10** of each high-signal benchmark for fast scanning, paired with a curated AI coding-tools landscape that benchlm.ai does not cover. English here · [中文版](README.zh-CN.md).
+The LLM evaluation landscape is noisy. LMArena measures preference, not capability; vendor-published numbers are cherry-picked; most aggregators lag months behind frontier model releases. [benchlm.ai](https://benchlm.ai) is the most honest, frequently-updated aggregator I have found. This repository distills the **Top 10** of each high-signal benchmark for fast scanning, paired with a curated AI coding-tools landscape that benchlm.ai does not cover.
 
 <br>
 
@@ -28,12 +28,60 @@ The LLM evaluation landscape is noisy. LMArena measures preference, not capabili
 
 ## Contents
 
-**Agentic** — [Terminal-Bench 2.0](#terminal-bench-20) · [OSWorld-Verified](#osworld-verified) · [BrowseComp](#browsecomp)  
 **Coding** — [SWE-bench Verified](#swe-bench-verified) · [LiveCodeBench](#livecodebench)  
+**Agentic** — [Terminal-Bench 2.0](#terminal-bench-20) · [OSWorld-Verified](#osworld-verified) · [BrowseComp](#browsecomp)  
 **Reasoning** — [ARC-AGI-2](#arc-agi-2)  
 **Knowledge** — [Humanity's Last Exam](#humanitys-last-exam)  
 **Tools** — [AI Coding Tools Landscape](#ai-coding-tools-landscape)  
-**Reference** — [How to read](#how-to-read-these-numbers) · [Caveats](#caveats) · [Attribution](#data-source--attribution)
+**Reference** — [How to read](#how-to-read-these-numbers) · [Caveats](#caveats) · [Attribution](#data-source-and-attribution)
+
+<br>
+
+---
+
+## Coding
+
+### SWE-bench Verified
+
+Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn). Human-verified subset of SWE-bench. The gold standard for AI coding agents.
+
+<!-- AUTO:START slug=sweVerified lang=en -->
+| Rank | Model | Provider | License | Score |
+| :-: | :-- | :-- | :-: | --: |
+| 1 | [Claude Mythos Preview](https://benchlm.ai/models/claude-mythos-preview) | Anthropic | Closed | 93.9% |
+| 2 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 87.6% |
+| 3 | [GPT-5.3 Codex](https://benchlm.ai/models/gpt-5-3-codex) | OpenAI | Closed | 85.0% |
+| 4 | [Claude Opus 4.5](https://benchlm.ai/models/claude-opus-4-5) | Anthropic | Closed | 80.9% |
+| 5 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 80.8% |
+| 6 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 80.6% |
+| 7 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 80.2% |
+| 8 | [GPT-5.2](https://benchlm.ai/models/gpt-5-2) | OpenAI | Closed | 80.0% |
+| 9 | [Claude Sonnet 4.6](https://benchlm.ai/models/claude-sonnet-4-6) | Anthropic | Closed | 79.6% |
+| 10 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 79.4% |
+
+*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-04-28 · Total models: 43*
+<!-- AUTO:END slug=sweVerified -->
+
+### LiveCodeBench
+
+Contamination-free code generation. Fresh problems are sampled continuously, mitigating training-data leakage.
+
+<!-- AUTO:START slug=liveCodeBench lang=en -->
+| Rank | Model | Provider | License | Score |
+| :-: | :-- | :-- | :-: | --: |
+| 1 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 93.5% |
+| 2 | [DeepSeek V4 Flash (Max)](https://benchlm.ai/models/deepseek-v4-flash-max) | DeepSeek | Open | 91.6% |
+| 3 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 89.8% |
+| 4 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 89.6% |
+| 5 | [DeepSeek V4 Flash (High)](https://benchlm.ai/models/deepseek-v4-flash-high) | DeepSeek | Open | 88.4% |
+| 6 | [Kimi K2.5](https://benchlm.ai/models/kimi-k2-5) | Moonshot AI | Open | 85.0% |
+| 7 | [GLM-4.7](https://benchlm.ai/models/glm-4-7) | Z.AI | Open | 84.9% |
+| 8 | [Qwen3.6-27B](https://benchlm.ai/models/qwen3-6-27b) | Alibaba | Open | 83.9% |
+| 9 | [Qwen3.6-35B-A3B](https://benchlm.ai/models/qwen3-6-35b-a3b) | Alibaba | Open | 80.4% |
+| 10 | [Nemotron 3 Nano Omni 30B A3B](https://benchlm.ai/models/nemotron-3-nano-omni-30b-a3b) | NVIDIA | Open | 63.2% |
+
+*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-04-28 · Total models: 13*
+<!-- AUTO:END slug=liveCodeBench -->
 
 <br>
 
@@ -103,54 +151,6 @@ Web-research agents. Models search, inspect sources, gather evidence, and return
 
 *Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-04-28 · Total models: 21*
 <!-- AUTO:END slug=browseComp -->
-
-<br>
-
----
-
-## Coding
-
-### SWE-bench Verified
-
-Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn). Human-verified subset of SWE-bench. The gold standard for AI coding agents.
-
-<!-- AUTO:START slug=sweVerified lang=en -->
-| Rank | Model | Provider | License | Score |
-| :-: | :-- | :-- | :-: | --: |
-| 1 | [Claude Mythos Preview](https://benchlm.ai/models/claude-mythos-preview) | Anthropic | Closed | 93.9% |
-| 2 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 87.6% |
-| 3 | [GPT-5.3 Codex](https://benchlm.ai/models/gpt-5-3-codex) | OpenAI | Closed | 85.0% |
-| 4 | [Claude Opus 4.5](https://benchlm.ai/models/claude-opus-4-5) | Anthropic | Closed | 80.9% |
-| 5 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 80.8% |
-| 6 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 80.6% |
-| 7 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 80.2% |
-| 8 | [GPT-5.2](https://benchlm.ai/models/gpt-5-2) | OpenAI | Closed | 80.0% |
-| 9 | [Claude Sonnet 4.6](https://benchlm.ai/models/claude-sonnet-4-6) | Anthropic | Closed | 79.6% |
-| 10 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 79.4% |
-
-*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-04-28 · Total models: 43*
-<!-- AUTO:END slug=sweVerified -->
-
-### LiveCodeBench
-
-Contamination-free code generation. Fresh problems are sampled continuously, mitigating training-data leakage.
-
-<!-- AUTO:START slug=liveCodeBench lang=en -->
-| Rank | Model | Provider | License | Score |
-| :-: | :-- | :-- | :-: | --: |
-| 1 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 93.5% |
-| 2 | [DeepSeek V4 Flash (Max)](https://benchlm.ai/models/deepseek-v4-flash-max) | DeepSeek | Open | 91.6% |
-| 3 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 89.8% |
-| 4 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 89.6% |
-| 5 | [DeepSeek V4 Flash (High)](https://benchlm.ai/models/deepseek-v4-flash-high) | DeepSeek | Open | 88.4% |
-| 6 | [Kimi K2.5](https://benchlm.ai/models/kimi-k2-5) | Moonshot AI | Open | 85.0% |
-| 7 | [GLM-4.7](https://benchlm.ai/models/glm-4-7) | Z.AI | Open | 84.9% |
-| 8 | [Qwen3.6-27B](https://benchlm.ai/models/qwen3-6-27b) | Alibaba | Open | 83.9% |
-| 9 | [Qwen3.6-35B-A3B](https://benchlm.ai/models/qwen3-6-35b-a3b) | Alibaba | Open | 80.4% |
-| 10 | [Nemotron 3 Nano Omni 30B A3B](https://benchlm.ai/models/nemotron-3-nano-omni-30b-a3b) | NVIDIA | Open | 63.2% |
-
-*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-04-28 · Total models: 13*
-<!-- AUTO:END slug=liveCodeBench -->
 
 <br>
 
