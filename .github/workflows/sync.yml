@@ -1,0 +1,57 @@
+name: Sync Leaderboards
+
+on:
+  schedule:
+    # Daily at 02:00 UTC (10:00 Beijing time)
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/sync.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch all benchmarks
+        run: python scripts/fetch_benchmark.py --all
+        # Continue even if some benchmarks fail — partial sync is better than none.
+        continue-on-error: true
+
+      - name: Render READMEs
+        run: python scripts/render_readme.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            # Build a summary of leader changes for the commit message
+            CHANGED=$(git diff --name-only data/ | xargs -I{} basename {} .json | tr '\n' ',' | sed 's/,$//')
+            DATE=$(date -u +%Y-%m-%d)
+            git add data/ README.md README.zh-CN.md
+            git commit -m "chore(sync): ${DATE} — updated: ${CHANGED}"
+            git push
+            echo "Committed sync for ${DATE}"
+          else
+            echo "No changes — nothing to commit."
+          fi

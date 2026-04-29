@@ -1,0 +1,61 @@
+# Benchmarks to mirror from benchlm.ai
+# slug: the camelCase identifier used in benchlm.ai/benchmarks/<slug>
+# display: short human-readable label used in headings
+# zh: Chinese display name
+# category: Agentic | Coding | Reasoning | Knowledge | Multimodal | Tool Use | Math
+# blurb: one-line English description (used in tooltip/section)
+# blurb_zh: one-line Chinese description
+
+benchmarks:
+  - slug: sweVerified
+    display: SWE-bench Verified
+    zh: SWE-bench 验证版
+    category: Coding
+    blurb: Real GitHub issues in popular Python repos. The gold standard for AI coding agents.
+    blurb_zh: 真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。
+
+  - slug: terminalBench2
+    display: Terminal-Bench 2.0
+    zh: Terminal-Bench 2.0
+    category: Agentic
+    blurb: Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.
+    blurb_zh: 多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。
+
+  - slug: osWorldVerified
+    display: OSWorld-Verified
+    zh: OSWorld 验证版
+    category: Agentic
+    blurb: Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.
+    blurb_zh: 桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。
+
+  - slug: liveCodeBench
+    display: LiveCodeBench
+    zh: LiveCodeBench
+    category: Coding
+    blurb: Contamination-free code generation, fresh problems sampled continuously.
+    blurb_zh: 防污染代码生成,持续采样新题目。
+
+  - slug: arcAgi2
+    display: ARC-AGI-2
+    zh: ARC-AGI-2
+    category: Reasoning
+    blurb: Abstraction and reasoning grid puzzles — frontier general intelligence test.
+    blurb_zh: 抽象推理网格谜题 —— 前沿通用智能测试。
+
+  - slug: hle
+    display: Humanity's Last Exam
+    zh: 人类最后考试 (HLE)
+    category: Knowledge
+    blurb: Expert-level questions across all academic domains, designed to be hard.
+    blurb_zh: 跨学科专家级难题,被设计为前沿模型也难以攻克。
+
+  - slug: browseComp
+    display: BrowseComp
+    zh: BrowseComp
+    category: Agentic
+    blurb: Web-research agents — search, inspect sources, return correct answers.
+    blurb_zh: Web 研究 agent —— 搜索、查证、返回准确答案。
+
+# NOTE: gaia / bfclV4 / frontierMath are tracked as "Display only" on benchlm.ai
+# itself (incomplete public snapshots). They are intentionally excluded until
+# benchlm.ai upgrades them to verified leaderboards.

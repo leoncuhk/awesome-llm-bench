@@ -1,0 +1,94 @@
+{
+  "slug": "arcAgi2",
+  "display": "ARC-AGI-2",
+  "zh": "ARC-AGI-2",
+  "category": "Reasoning",
+  "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
+  "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
+  "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
+  "fetched_at": "2026-04-29T02:05:22Z",
+  "updated_at": "2026-04-28",
+  "total_models": 10,
+  "top10": [
+    {
+      "rank": 1,
+      "model": "GPT-5.5",
+      "model_url": "/models/gpt-5-5",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 85.0
+    },
+    {
+      "rank": 2,
+      "model": "GPT-5.4 Pro",
+      "model_url": "/models/gpt-5-4-pro",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 83.3
+    },
+    {
+      "rank": 3,
+      "model": "Gemini 3.1 Pro",
+      "model_url": "/models/gemini-3-1-pro",
+      "provider": "Google",
+      "license": "Closed",
+      "score": 77.1
+    },
+    {
+      "rank": 4,
+      "model": "Claude Opus 4.7 (Adaptive)",
+      "model_url": "/models/claude-opus-4-7-adaptive",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 75.8
+    },
+    {
+      "rank": 5,
+      "model": "Grok 4.20",
+      "model_url": "/models/grok-4-20-beta",
+      "provider": "xAI",
+      "license": "Closed",
+      "score": 53.3
+    },
+    {
+      "rank": 6,
+      "model": "GPT-5.2",
+      "model_url": "/models/gpt-5-2",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 52.9
+    },
+    {
+      "rank": 7,
+      "model": "Gemini 3 Pro Deep Think",
+      "model_url": "/models/gemini-3-pro-deep-think",
+      "provider": "Google",
+      "license": "Closed",
+      "score": 45.1
+    },
+    {
+      "rank": 8,
+      "model": "Muse Spark",
+      "model_url": "/models/muse-spark",
+      "provider": "Meta",
+      "license": "Closed",
+      "score": 42.5
+    },
+    {
+      "rank": 9,
+      "model": "Gemini 3 Pro",
+      "model_url": "/models/gemini-3-pro",
+      "provider": "Google",
+      "license": "Closed",
+      "score": 31.1
+    },
+    {
+      "rank": 10,
+      "model": "Claude Sonnet 4.5",
+      "model_url": "/models/claude-sonnet-4-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 13.6
+    }
+  ]
+}

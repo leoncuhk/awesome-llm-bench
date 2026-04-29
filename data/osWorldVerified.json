@@ -1,0 +1,94 @@
+{
+  "slug": "osWorldVerified",
+  "display": "OSWorld-Verified",
+  "zh": "OSWorld 验证版",
+  "category": "Agentic",
+  "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
+  "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
+  "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
+  "fetched_at": "2026-04-29T02:05:05Z",
+  "updated_at": "2026-04-28",
+  "total_models": 18,
+  "top10": [
+    {
+      "rank": 1,
+      "model": "Claude Mythos Preview",
+      "model_url": "/models/claude-mythos-preview",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 79.6
+    },
+    {
+      "rank": 2,
+      "model": "Holo3-122B-A10B",
+      "model_url": "/models/holo3-122b-a10b",
+      "provider": "H Company",
+      "license": "Closed",
+      "score": 78.8
+    },
+    {
+      "rank": 3,
+      "model": "GPT-5.5",
+      "model_url": "/models/gpt-5-5",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 78.7
+    },
+    {
+      "rank": 4,
+      "model": "Claude Opus 4.7 (Adaptive)",
+      "model_url": "/models/claude-opus-4-7-adaptive",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 78.0
+    },
+    {
+      "rank": 5,
+      "model": "Holo3-35B-A3B",
+      "model_url": "/models/holo3-35b-a3b",
+      "provider": "H Company",
+      "license": "Open",
+      "score": 77.8
+    },
+    {
+      "rank": 6,
+      "model": "GPT-5.4",
+      "model_url": "/models/gpt-5-4",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 75.0
+    },
+    {
+      "rank": 7,
+      "model": "Kimi 2.6",
+      "model_url": "/models/kimi-2-6",
+      "provider": "Moonshot AI",
+      "license": "Open",
+      "score": 73.1
+    },
+    {
+      "rank": 8,
+      "model": "Claude Opus 4.6",
+      "model_url": "/models/claude-opus-4-6",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 72.7
+    },
+    {
+      "rank": 9,
+      "model": "Claude Sonnet 4.6",
+      "model_url": "/models/claude-sonnet-4-6",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 72.5
+    },
+    {
+      "rank": 10,
+      "model": "GPT-5.4 mini",
+      "model_url": "/models/gpt-5-4-mini",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 72.1
+    }
+  ]
+}

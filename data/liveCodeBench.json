@@ -1,0 +1,94 @@
+{
+  "slug": "liveCodeBench",
+  "display": "LiveCodeBench",
+  "zh": "LiveCodeBench",
+  "category": "Coding",
+  "blurb": "Contamination-free code generation, fresh problems sampled continuously.",
+  "blurb_zh": "防污染代码生成,持续采样新题目。",
+  "source_url": "https://benchlm.ai/benchmarks/liveCodeBench",
+  "fetched_at": "2026-04-29T02:05:18Z",
+  "updated_at": "2026-04-28",
+  "total_models": 13,
+  "top10": [
+    {
+      "rank": 1,
+      "model": "DeepSeek V4 Pro (Max)",
+      "model_url": "/models/deepseek-v4-pro-max",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 93.5
+    },
+    {
+      "rank": 2,
+      "model": "DeepSeek V4 Flash (Max)",
+      "model_url": "/models/deepseek-v4-flash-max",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 91.6
+    },
+    {
+      "rank": 3,
+      "model": "DeepSeek V4 Pro (High)",
+      "model_url": "/models/deepseek-v4-pro-high",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 89.8
+    },
+    {
+      "rank": 4,
+      "model": "Kimi 2.6",
+      "model_url": "/models/kimi-2-6",
+      "provider": "Moonshot AI",
+      "license": "Open",
+      "score": 89.6
+    },
+    {
+      "rank": 5,
+      "model": "DeepSeek V4 Flash (High)",
+      "model_url": "/models/deepseek-v4-flash-high",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 88.4
+    },
+    {
+      "rank": 6,
+      "model": "Kimi K2.5",
+      "model_url": "/models/kimi-k2-5",
+      "provider": "Moonshot AI",
+      "license": "Open",
+      "score": 85.0
+    },
+    {
+      "rank": 7,
+      "model": "GLM-4.7",
+      "model_url": "/models/glm-4-7",
+      "provider": "Z.AI",
+      "license": "Open",
+      "score": 84.9
+    },
+    {
+      "rank": 8,
+      "model": "Qwen3.6-27B",
+      "model_url": "/models/qwen3-6-27b",
+      "provider": "Alibaba",
+      "license": "Open",
+      "score": 83.9
+    },
+    {
+      "rank": 9,
+      "model": "Qwen3.6-35B-A3B",
+      "model_url": "/models/qwen3-6-35b-a3b",
+      "provider": "Alibaba",
+      "license": "Open",
+      "score": 80.4
+    },
+    {
+      "rank": 10,
+      "model": "Nemotron 3 Nano Omni 30B A3B",
+      "model_url": "/models/nemotron-3-nano-omni-30b-a3b",
+      "provider": "NVIDIA",
+      "license": "Open",
+      "score": 63.2
+    }
+  ]
+}

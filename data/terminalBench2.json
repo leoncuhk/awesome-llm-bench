@@ -1,0 +1,94 @@
+{
+  "slug": "terminalBench2",
+  "display": "Terminal-Bench 2.0",
+  "zh": "Terminal-Bench 2.0",
+  "category": "Agentic",
+  "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
+  "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
+  "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
+  "fetched_at": "2026-04-29T02:05:01Z",
+  "updated_at": "2026-04-28",
+  "total_models": 17,
+  "top10": [
+    {
+      "rank": 1,
+      "model": "GPT-5.5",
+      "model_url": "/models/gpt-5-5",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 82.7
+    },
+    {
+      "rank": 2,
+      "model": "Claude Opus 4.7 (Adaptive)",
+      "model_url": "/models/claude-opus-4-7-adaptive",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 69.4
+    },
+    {
+      "rank": 3,
+      "model": "MiMo-V2.5-Pro",
+      "model_url": "/models/mimo-v2-5-pro",
+      "provider": "Xiaomi",
+      "license": "Closed",
+      "score": 68.4
+    },
+    {
+      "rank": 4,
+      "model": "DeepSeek V4 Pro (Max)",
+      "model_url": "/models/deepseek-v4-pro-max",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 67.9
+    },
+    {
+      "rank": 5,
+      "model": "Kimi 2.6",
+      "model_url": "/models/kimi-2-6",
+      "provider": "Moonshot AI",
+      "license": "Open",
+      "score": 66.7
+    },
+    {
+      "rank": 6,
+      "model": "MiMo-V2.5",
+      "model_url": "/models/mimo-v2-5",
+      "provider": "Xiaomi",
+      "license": "Closed",
+      "score": 65.8
+    },
+    {
+      "rank": 7,
+      "model": "Qwen 3.6 Max (preview)",
+      "model_url": "/models/qwen-3-6-max-preview",
+      "provider": "Alibaba",
+      "license": "Closed",
+      "score": 65.4
+    },
+    {
+      "rank": 8,
+      "model": "DeepSeek V4 Pro (High)",
+      "model_url": "/models/deepseek-v4-pro-high",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 63.3
+    },
+    {
+      "rank": 9,
+      "model": "Composer 2",
+      "model_url": "/models/composer-2",
+      "provider": "Cursor",
+      "license": "Closed",
+      "score": 61.7
+    },
+    {
+      "rank": 10,
+      "model": "Qwen3.6-27B",
+      "model_url": "/models/qwen3-6-27b",
+      "provider": "Alibaba",
+      "license": "Open",
+      "score": 59.3
+    }
+  ]
+}

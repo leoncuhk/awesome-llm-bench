@@ -1,0 +1,94 @@
+{
+  "slug": "sweVerified",
+  "display": "SWE-bench Verified",
+  "zh": "SWE-bench 验证版",
+  "category": "Coding",
+  "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
+  "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
+  "source_url": "https://benchlm.ai/benchmarks/sweVerified",
+  "fetched_at": "2026-04-29T02:04:58Z",
+  "updated_at": "2026-04-28",
+  "total_models": 43,
+  "top10": [
+    {
+      "rank": 1,
+      "model": "Claude Mythos Preview",
+      "model_url": "/models/claude-mythos-preview",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 93.9
+    },
+    {
+      "rank": 2,
+      "model": "Claude Opus 4.7 (Adaptive)",
+      "model_url": "/models/claude-opus-4-7-adaptive",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 87.6
+    },
+    {
+      "rank": 3,
+      "model": "GPT-5.3 Codex",
+      "model_url": "/models/gpt-5-3-codex",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 85.0
+    },
+    {
+      "rank": 4,
+      "model": "Claude Opus 4.5",
+      "model_url": "/models/claude-opus-4-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 80.9
+    },
+    {
+      "rank": 5,
+      "model": "Claude Opus 4.6",
+      "model_url": "/models/claude-opus-4-6",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 80.8
+    },
+    {
+      "rank": 6,
+      "model": "DeepSeek V4 Pro (Max)",
+      "model_url": "/models/deepseek-v4-pro-max",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 80.6
+    },
+    {
+      "rank": 7,
+      "model": "Kimi 2.6",
+      "model_url": "/models/kimi-2-6",
+      "provider": "Moonshot AI",
+      "license": "Open",
+      "score": 80.2
+    },
+    {
+      "rank": 8,
+      "model": "GPT-5.2",
+      "model_url": "/models/gpt-5-2",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 80.0
+    },
+    {
+      "rank": 9,
+      "model": "Claude Sonnet 4.6",
+      "model_url": "/models/claude-sonnet-4-6",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 79.6
+    },
+    {
+      "rank": 10,
+      "model": "DeepSeek V4 Pro (High)",
+      "model_url": "/models/deepseek-v4-pro-high",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 79.4
+    }
+  ]
+}
