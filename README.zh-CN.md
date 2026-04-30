@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![English](https://img.shields.io/badge/lang-English-000.svg)](README.md)
 
-<!-- LAST_SYNC -->最近同步: **2026-04-29** (UTC,每日自动更新)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->最近同步: **2026-04-30** (UTC,每日自动更新)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -54,12 +54,12 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 4 | [Claude Opus 4.5](https://benchlm.ai/models/claude-opus-4-5) | Anthropic | Closed | 80.9% |
 | 5 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 80.8% |
 | 6 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 80.6% |
-| 7 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 80.2% |
+| 7 | [Kimi K2.6](https://benchlm.ai/models/kimi-k2-6) | Moonshot AI | Open | 80.2% |
 | 8 | [GPT-5.2](https://benchlm.ai/models/gpt-5-2) | OpenAI | Closed | 80.0% |
 | 9 | [Claude Sonnet 4.6](https://benchlm.ai/models/claude-sonnet-4-6) | Anthropic | Closed | 79.6% |
 | 10 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 79.4% |
 
-*来源: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · 更新于 2026-04-28 · 共 43 个模型*
+*来源: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · 更新于 2026-04-29 · 共 44 个模型*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
@@ -72,7 +72,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 1 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 93.5% |
 | 2 | [DeepSeek V4 Flash (Max)](https://benchlm.ai/models/deepseek-v4-flash-max) | DeepSeek | Open | 91.6% |
 | 3 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 89.8% |
-| 4 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 89.6% |
+| 4 | [Kimi K2.6](https://benchlm.ai/models/kimi-k2-6) | Moonshot AI | Open | 89.6% |
 | 5 | [DeepSeek V4 Flash (High)](https://benchlm.ai/models/deepseek-v4-flash-high) | DeepSeek | Open | 88.4% |
 | 6 | [Kimi K2.5](https://benchlm.ai/models/kimi-k2-5) | Moonshot AI | Open | 85.0% |
 | 7 | [GLM-4.7](https://benchlm.ai/models/glm-4-7) | Z.AI | Open | 84.9% |
@@ -80,7 +80,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 9 | [Qwen3.6-35B-A3B](https://benchlm.ai/models/qwen3-6-35b-a3b) | Alibaba | Open | 80.4% |
 | 10 | [Nemotron 3 Nano Omni 30B A3B](https://benchlm.ai/models/nemotron-3-nano-omni-30b-a3b) | NVIDIA | Open | 63.2% |
 
-*来源: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · 更新于 2026-04-28 · 共 13 个模型*
+*来源: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · 更新于 2026-04-29 · 共 13 个模型*
 <!-- AUTO:END slug=liveCodeBench -->
 
 <br>
@@ -96,18 +96,18 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 <!-- AUTO:START slug=terminalBench2 lang=zh -->
 | 排名 | 模型 | 提供商 | 开闭源 | 分数 |
 | :-: | :-- | :-- | :-: | --: |
-| 1 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 82.7% |
+| 1 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 82.0% |
 | 2 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 69.4% |
 | 3 | [MiMo-V2.5-Pro](https://benchlm.ai/models/mimo-v2-5-pro) | Xiaomi | Closed | 68.4% |
 | 4 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 67.9% |
-| 5 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 66.7% |
+| 5 | [Kimi K2.6](https://benchlm.ai/models/kimi-k2-6) | Moonshot AI | Open | 66.7% |
 | 6 | [MiMo-V2.5](https://benchlm.ai/models/mimo-v2-5) | Xiaomi | Closed | 65.8% |
 | 7 | [Qwen 3.6 Max (preview)](https://benchlm.ai/models/qwen-3-6-max-preview) | Alibaba | Closed | 65.4% |
 | 8 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 63.3% |
 | 9 | [Composer 2](https://benchlm.ai/models/composer-2) | Cursor | Closed | 61.7% |
 | 10 | [Qwen3.6-27B](https://benchlm.ai/models/qwen3-6-27b) | Alibaba | Open | 59.3% |
 
-*来源: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · 更新于 2026-04-28 · 共 17 个模型*
+*来源: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · 更新于 2026-04-29 · 共 17 个模型*
 <!-- AUTO:END slug=terminalBench2 -->
 
 ### OSWorld-Verified
@@ -117,18 +117,18 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 <!-- AUTO:START slug=osWorldVerified lang=zh -->
 | 排名 | 模型 | 提供商 | 开闭源 | 分数 |
 | :-: | :-- | :-- | :-: | --: |
-| 1 | [Claude Mythos Preview](https://benchlm.ai/models/claude-mythos-preview) | Anthropic | Closed | 79.6% |
-| 2 | [Holo3-122B-A10B](https://benchlm.ai/models/holo3-122b-a10b) | H Company | Closed | 78.8% |
-| 3 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 78.7% |
-| 4 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 78.0% |
-| 5 | [Holo3-35B-A3B](https://benchlm.ai/models/holo3-35b-a3b) | H Company | Open | 77.8% |
+| 1 | [Holo3-35B-A3B](https://benchlm.ai/models/holo3-35b-a3b) | H Company | Open | 82.6% |
+| 2 | [Claude Mythos Preview](https://benchlm.ai/models/claude-mythos-preview) | Anthropic | Closed | 79.6% |
+| 3 | [Holo3-122B-A10B](https://benchlm.ai/models/holo3-122b-a10b) | H Company | Closed | 78.8% |
+| 4 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 78.7% |
+| 5 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 78.0% |
 | 6 | [GPT-5.4](https://benchlm.ai/models/gpt-5-4) | OpenAI | Closed | 75.0% |
-| 7 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 73.1% |
+| 7 | [Kimi K2.6](https://benchlm.ai/models/kimi-k2-6) | Moonshot AI | Open | 73.1% |
 | 8 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 72.7% |
-| 9 | [Claude Sonnet 4.6](https://benchlm.ai/models/claude-sonnet-4-6) | Anthropic | Closed | 72.5% |
+| 9 | [Claude Sonnet 4.6](https://benchlm.ai/models/claude-sonnet-4-6) | Anthropic | Closed | 72.1% |
 | 10 | [GPT-5.4 mini](https://benchlm.ai/models/gpt-5-4-mini) | OpenAI | Closed | 72.1% |
 
-*来源: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · 更新于 2026-04-28 · 共 18 个模型*
+*来源: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · 更新于 2026-04-29 · 共 18 个模型*
 <!-- AUTO:END slug=osWorldVerified -->
 
 ### BrowseComp
@@ -144,12 +144,12 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 4 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 84.4% |
 | 5 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 83.7% |
 | 6 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 83.4% |
-| 7 | [Kimi 2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 83.2% |
+| 7 | [Kimi K2.6](https://benchlm.ai/models/kimi-k2-6) | Moonshot AI | Open | 83.2% |
 | 8 | [GPT-5.4](https://benchlm.ai/models/gpt-5-4) | OpenAI | Closed | 82.7% |
 | 9 | [DeepSeek V4 Pro (High)](https://benchlm.ai/models/deepseek-v4-pro-high) | DeepSeek | Open | 80.4% |
 | 10 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 79.3% |
 
-*来源: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · 更新于 2026-04-28 · 共 21 个模型*
+*来源: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · 更新于 2026-04-29 · 共 21 个模型*
 <!-- AUTO:END slug=browseComp -->
 
 <br>
@@ -176,7 +176,7 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 9 | [Gemini 3 Pro](https://benchlm.ai/models/gemini-3-pro) | Google | Closed | 31.1% |
 | 10 | [Claude Sonnet 4.5](https://benchlm.ai/models/claude-sonnet-4-5) | Anthropic | Closed | 13.6% |
 
-*来源: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · 更新于 2026-04-28 · 共 10 个模型*
+*来源: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · 更新于 2026-04-29 · 共 10 个模型*
 <!-- AUTO:END slug=arcAgi2 -->
 
 <br>
@@ -203,7 +203,7 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 9 | [GLM-5](https://benchlm.ai/models/glm-5) | Z.AI | Open | 50.4% |
 | 10 | [Muse Spark](https://benchlm.ai/models/muse-spark) | Meta | Closed | 50.4% |
 
-*来源: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · 更新于 2026-04-28 · 共 31 个模型*
+*来源: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · 更新于 2026-04-29 · 共 31 个模型*
 <!-- AUTO:END slug=hle -->
 
 <br>

@@ -6,9 +6,9 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-04-29T02:23:13Z",
-  "updated_at": "2026-04-28",
-  "total_models": 43,
+  "fetched_at": "2026-04-30T05:23:42Z",
+  "updated_at": "2026-04-29",
+  "total_models": 44,
   "top10": [
     {
       "rank": 1,
@@ -60,8 +60,8 @@
     },
     {
       "rank": 7,
-      "model": "Kimi 2.6",
-      "model_url": "/models/kimi-2-6",
+      "model": "Kimi K2.6",
+      "model_url": "/models/kimi-k2-6",
       "provider": "Moonshot AI",
       "license": "Open",
       "score": 80.2
