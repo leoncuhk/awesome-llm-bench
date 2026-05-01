@@ -6,8 +6,8 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-04-30T05:23:42Z",
-  "updated_at": "2026-04-29",
+  "fetched_at": "2026-05-01T05:35:39Z",
+  "updated_at": "2026-04-30",
   "total_models": 44,
   "top10": [
     {
@@ -21,7 +21,7 @@
     {
       "rank": 2,
       "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
+      "model_url": "/models/claude-opus-4-7-max",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 87.6
@@ -61,7 +61,7 @@
     {
       "rank": 7,
       "model": "Kimi K2.6",
-      "model_url": "/models/kimi-k2-6",
+      "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
       "license": "Open",
       "score": 80.2

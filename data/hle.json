@@ -6,8 +6,8 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-04-30T05:23:50Z",
-  "updated_at": "2026-04-29",
+  "fetched_at": "2026-05-01T05:35:47Z",
+  "updated_at": "2026-04-30",
   "total_models": 31,
   "top10": [
     {
@@ -37,7 +37,7 @@
     {
       "rank": 4,
       "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
+      "model_url": "/models/claude-opus-4-7-max",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 54.7

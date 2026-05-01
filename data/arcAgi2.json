@@ -6,8 +6,8 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-04-30T05:23:48Z",
-  "updated_at": "2026-04-29",
+  "fetched_at": "2026-05-01T05:35:45Z",
+  "updated_at": "2026-04-30",
   "total_models": 10,
   "top10": [
     {
@@ -37,7 +37,7 @@
     {
       "rank": 4,
       "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
+      "model_url": "/models/claude-opus-4-7-max",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 75.8

@@ -6,8 +6,8 @@
   "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
   "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
   "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
-  "fetched_at": "2026-04-30T05:23:45Z",
-  "updated_at": "2026-04-29",
+  "fetched_at": "2026-05-01T05:35:42Z",
+  "updated_at": "2026-04-30",
   "total_models": 18,
   "top10": [
     {
@@ -45,7 +45,7 @@
     {
       "rank": 5,
       "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
+      "model_url": "/models/claude-opus-4-7-max",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 78.0
@@ -61,7 +61,7 @@
     {
       "rank": 7,
       "model": "Kimi K2.6",
-      "model_url": "/models/kimi-k2-6",
+      "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
       "license": "Open",
       "score": 73.1

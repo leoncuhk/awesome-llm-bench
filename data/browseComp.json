@@ -6,8 +6,8 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-04-30T05:23:52Z",
-  "updated_at": "2026-04-29",
+  "fetched_at": "2026-05-01T05:35:49Z",
+  "updated_at": "2026-04-30",
   "total_models": 21,
   "top10": [
     {
@@ -61,7 +61,7 @@
     {
       "rank": 7,
       "model": "Kimi K2.6",
-      "model_url": "/models/kimi-k2-6",
+      "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
       "license": "Open",
       "score": 83.2
@@ -85,7 +85,7 @@
     {
       "rank": 10,
       "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
+      "model_url": "/models/claude-opus-4-7-max",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 79.3
