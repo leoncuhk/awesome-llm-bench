@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-05-03** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-05-04** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
