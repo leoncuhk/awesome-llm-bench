@@ -6,8 +6,8 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-05-13T05:45:11Z",
-  "updated_at": "2026-05-12",
+  "fetched_at": "2026-05-14T05:41:20Z",
+  "updated_at": "2026-05-13",
   "total_models": 21,
   "top10": [
     {
@@ -85,7 +85,7 @@
     {
       "rank": 10,
       "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-max",
+      "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 79.3
