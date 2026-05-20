@@ -6,9 +6,9 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-05-14T05:41:17Z",
-  "updated_at": "2026-05-13",
-  "total_models": 10,
+  "fetched_at": "2026-05-20T05:59:12Z",
+  "updated_at": "2026-05-19",
+  "total_models": 11,
   "top10": [
     {
       "rank": 1,
@@ -44,6 +44,14 @@
     },
     {
       "rank": 5,
+      "model": "Gemini 3.5 Flash",
+      "model_url": "/models/gemini-3-5-flash",
+      "provider": "Google",
+      "license": "Closed",
+      "score": 72.1
+    },
+    {
+      "rank": 6,
       "model": "Grok 4.20",
       "model_url": "/models/grok-4-20-beta",
       "provider": "xAI",
@@ -51,7 +59,7 @@
       "score": 53.3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-5.2",
       "model_url": "/models/gpt-5-2",
       "provider": "OpenAI",
@@ -59,7 +67,7 @@
       "score": 52.9
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Gemini 3 Pro Deep Think",
       "model_url": "/models/gemini-3-pro-deep-think",
       "provider": "Google",
@@ -67,7 +75,7 @@
       "score": 45.1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Muse Spark",
       "model_url": "/models/muse-spark",
       "provider": "Meta",
@@ -75,20 +83,12 @@
       "score": 42.5
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Gemini 3 Pro",
       "model_url": "/models/gemini-3-pro",
       "provider": "Google",
       "license": "Closed",
       "score": 31.1
-    },
-    {
-      "rank": 10,
-      "model": "Claude Sonnet 4.5",
-      "model_url": "/models/claude-sonnet-4-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 13.6
     }
   ]
 }
