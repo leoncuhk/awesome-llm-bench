@@ -6,8 +6,8 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-05-21T06:02:57Z",
-  "updated_at": "2026-05-20",
+  "fetched_at": "2026-05-22T05:58:47Z",
+  "updated_at": "2026-05-21",
   "total_models": 11,
   "top10": [
     {
