@@ -6,8 +6,8 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-05-23T05:33:36Z",
-  "updated_at": "2026-05-22",
+  "fetched_at": "2026-05-26T05:59:16Z",
+  "updated_at": "2026-05-25",
   "total_models": 21,
   "top10": [
     {
