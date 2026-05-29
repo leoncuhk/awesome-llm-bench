@@ -6,12 +6,20 @@
   "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
   "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
   "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
-  "fetched_at": "2026-05-28T06:03:13Z",
-  "updated_at": "2026-05-27",
-  "total_models": 19,
+  "fetched_at": "2026-05-29T06:05:18Z",
+  "updated_at": "2026-05-28",
+  "total_models": 20,
   "top10": [
     {
       "rank": 1,
+      "model": "Claude Opus 4.8",
+      "model_url": "/models/claude-opus-4-8",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 83.4
+    },
+    {
+      "rank": 2,
       "model": "Holo3-35B-A3B",
       "model_url": "/models/holo3-35b-a3b",
       "provider": "H Company",
@@ -19,7 +27,7 @@
       "score": 82.6
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "Claude Mythos Preview",
       "model_url": "/models/claude-mythos-preview",
       "provider": "Anthropic",
@@ -27,7 +35,7 @@
       "score": 79.6
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "Holo3-122B-A10B",
       "model_url": "/models/holo3-122b-a10b",
       "provider": "H Company",
@@ -35,7 +43,7 @@
       "score": 78.8
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -43,7 +51,7 @@
       "score": 78.7
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Gemini 3.5 Flash",
       "model_url": "/models/gemini-3-5-flash",
       "provider": "Google",
@@ -51,7 +59,7 @@
       "score": 78.4
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 78.0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-5.4",
       "model_url": "/models/gpt-5-4",
       "provider": "OpenAI",
@@ -67,7 +75,7 @@
       "score": 75.0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Kimi K2.6",
       "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
@@ -75,20 +83,12 @@
       "score": 73.1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Opus 4.6",
       "model_url": "/models/claude-opus-4-6",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 72.7
-    },
-    {
-      "rank": 10,
-      "model": "Claude Sonnet 4.6",
-      "model_url": "/models/claude-sonnet-4-6",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 72.1
     }
   ]
 }

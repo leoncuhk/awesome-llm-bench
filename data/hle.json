@@ -6,9 +6,9 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-05-28T06:03:18Z",
-  "updated_at": "2026-05-27",
-  "total_models": 35,
+  "fetched_at": "2026-05-29T06:05:23Z",
+  "updated_at": "2026-05-28",
+  "total_models": 36,
   "top10": [
     {
       "rank": 1,
@@ -28,6 +28,14 @@
     },
     {
       "rank": 3,
+      "model": "Claude Opus 4.8",
+      "model_url": "/models/claude-opus-4-8",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 57.9
+    },
+    {
+      "rank": 4,
       "model": "GPT-5.5 Pro",
       "model_url": "/models/gpt-5-5-pro",
       "provider": "OpenAI",
@@ -35,7 +43,7 @@
       "score": 57.2
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -43,7 +51,7 @@
       "score": 54.7
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Opus 4.6",
       "model_url": "/models/claude-opus-4-6",
       "provider": "Anthropic",
@@ -51,7 +59,7 @@
       "score": 53.0
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GLM-5.1",
       "model_url": "/models/glm-5-1",
       "provider": "Z.AI",
@@ -59,7 +67,7 @@
       "score": 52.3
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -67,7 +75,7 @@
       "score": 52.2
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GPT-5.4",
       "model_url": "/models/gpt-5-4",
       "provider": "OpenAI",
@@ -75,19 +83,11 @@
       "score": 52.1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GLM-5",
       "model_url": "/models/glm-5",
       "provider": "Z.AI",
       "license": "Open",
-      "score": 50.4
-    },
-    {
-      "rank": 10,
-      "model": "Muse Spark",
-      "model_url": "/models/muse-spark",
-      "provider": "Meta",
-      "license": "Closed",
       "score": 50.4
     }
   ]

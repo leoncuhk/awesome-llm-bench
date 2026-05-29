@@ -6,9 +6,9 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-05-28T06:03:11Z",
-  "updated_at": "2026-05-27",
-  "total_models": 21,
+  "fetched_at": "2026-05-29T06:05:15Z",
+  "updated_at": "2026-05-28",
+  "total_models": 22,
   "top10": [
     {
       "rank": 1,
@@ -28,6 +28,14 @@
     },
     {
       "rank": 3,
+      "model": "Claude Opus 4.8",
+      "model_url": "/models/claude-opus-4-8",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 74.6
+    },
+    {
+      "rank": 4,
       "model": "Qwen3.7 Max",
       "model_url": "/models/qwen3-7-max",
       "provider": "Alibaba",
@@ -35,7 +43,7 @@
       "score": 69.7
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -43,7 +51,7 @@
       "score": 69.4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Composer 2.5",
       "model_url": "/models/composer-2-5",
       "provider": "Cursor",
@@ -51,7 +59,7 @@
       "score": 69.3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "MiMo-V2.5-Pro",
       "model_url": "/models/mimo-v2-5-pro",
       "provider": "Xiaomi",
@@ -59,7 +67,7 @@
       "score": 68.4
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "DeepSeek V4 Pro (Max)",
       "model_url": "/models/deepseek-v4-pro-max",
       "provider": "DeepSeek",
@@ -67,7 +75,7 @@
       "score": 67.9
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Kimi K2.6",
       "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
@@ -75,20 +83,12 @@
       "score": 66.7
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "MiMo-V2.5",
       "model_url": "/models/mimo-v2-5",
       "provider": "Xiaomi",
       "license": "Closed",
       "score": 65.8
-    },
-    {
-      "rank": 10,
-      "model": "Qwen 3.6 Max (preview)",
-      "model_url": "/models/qwen3-6-max-preview",
-      "provider": "Alibaba",
-      "license": "Closed",
-      "score": 65.4
     }
   ]
 }
