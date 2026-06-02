@@ -6,9 +6,9 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-05-29T06:05:25Z",
-  "updated_at": "2026-05-28",
-  "total_models": 22,
+  "fetched_at": "2026-06-02T06:28:40Z",
+  "updated_at": "2026-06-01",
+  "total_models": 24,
   "top10": [
     {
       "rank": 1,
@@ -60,6 +60,14 @@
     },
     {
       "rank": 7,
+      "model": "MiniMax M3",
+      "model_url": "/models/minimax-m3",
+      "provider": "MiniMax",
+      "license": "Open",
+      "score": 83.5
+    },
+    {
+      "rank": 8,
       "model": "DeepSeek V4 Pro (Max)",
       "model_url": "/models/deepseek-v4-pro-max",
       "provider": "DeepSeek",
@@ -67,7 +75,7 @@
       "score": 83.4
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Kimi K2.6",
       "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
@@ -75,20 +83,12 @@
       "score": 83.2
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.4",
       "model_url": "/models/gpt-5-4",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 82.7
-    },
-    {
-      "rank": 10,
-      "model": "DeepSeek V4 Pro (High)",
-      "model_url": "/models/deepseek-v4-pro-high",
-      "provider": "DeepSeek",
-      "license": "Open",
-      "score": 80.4
     }
   ]
 }

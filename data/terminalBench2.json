@@ -6,9 +6,9 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-05-29T06:05:15Z",
-  "updated_at": "2026-05-28",
-  "total_models": 22,
+  "fetched_at": "2026-06-02T06:28:32Z",
+  "updated_at": "2026-06-01",
+  "total_models": 24,
   "top10": [
     {
       "rank": 1,
@@ -84,11 +84,11 @@
     },
     {
       "rank": 10,
-      "model": "MiMo-V2.5",
-      "model_url": "/models/mimo-v2-5",
-      "provider": "Xiaomi",
-      "license": "Closed",
-      "score": 65.8
+      "model": "MiniMax M3",
+      "model_url": "/models/minimax-m3",
+      "provider": "MiniMax",
+      "license": "Open",
+      "score": 66.0
     }
   ]
 }
