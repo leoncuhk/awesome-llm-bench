@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![English](https://img.shields.io/badge/lang-English-000.svg)](README.md)
 
-<!-- LAST_SYNC -->最近同步: **2026-06-02** (UTC,每日自动更新)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->最近同步: **2026-06-03** (UTC,每日自动更新)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -59,7 +59,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 9 | [Qwen3.7 Max](https://benchlm.ai/models/qwen3-7-max) | Alibaba | Closed | 80.4% |
 | 10 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 80.2% |
 
-*来源: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · 更新于 2026-06-01 · 共 49 个模型*
+*来源: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · 更新于 2026-06-02 · 共 49 个模型*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
@@ -80,7 +80,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 9 | [Qwen3.6-27B](https://benchlm.ai/models/qwen3-6-27b) | Alibaba | Open | 83.9% |
 | 10 | [Qwen3.6-35B-A3B](https://benchlm.ai/models/qwen3-6-35b-a3b) | Alibaba | Open | 80.4% |
 
-*来源: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · 更新于 2026-06-01 · 共 14 个模型*
+*来源: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · 更新于 2026-06-02 · 共 14 个模型*
 <!-- AUTO:END slug=liveCodeBench -->
 
 <br>
@@ -107,7 +107,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 9 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 66.7% |
 | 10 | [MiniMax M3](https://benchlm.ai/models/minimax-m3) | MiniMax | Open | 66.0% |
 
-*来源: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · 更新于 2026-06-01 · 共 24 个模型*
+*来源: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · 更新于 2026-06-02 · 共 24 个模型*
 <!-- AUTO:END slug=terminalBench2 -->
 
 ### OSWorld-Verified
@@ -128,7 +128,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 9 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 73.1% |
 | 10 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 72.7% |
 
-*来源: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · 更新于 2026-06-01 · 共 21 个模型*
+*来源: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · 更新于 2026-06-02 · 共 21 个模型*
 <!-- AUTO:END slug=osWorldVerified -->
 
 ### BrowseComp
@@ -149,7 +149,7 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 9 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 83.2% |
 | 10 | [GPT-5.4](https://benchlm.ai/models/gpt-5-4) | OpenAI | Closed | 82.7% |
 
-*来源: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · 更新于 2026-06-01 · 共 24 个模型*
+*来源: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · 更新于 2026-06-02 · 共 24 个模型*
 <!-- AUTO:END slug=browseComp -->
 
 <br>
@@ -176,7 +176,7 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 9 | [Muse Spark](https://benchlm.ai/models/muse-spark) | Meta | Closed | 42.5% |
 | 10 | [Gemini 3 Pro](https://benchlm.ai/models/gemini-3-pro) | Google | Closed | 31.1% |
 
-*来源: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · 更新于 2026-06-01 · 共 11 个模型*
+*来源: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · 更新于 2026-06-02 · 共 11 个模型*
 <!-- AUTO:END slug=arcAgi2 -->
 
 <br>
@@ -203,7 +203,7 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 9 | [GPT-5.4](https://benchlm.ai/models/gpt-5-4) | OpenAI | Closed | 52.1% |
 | 10 | [GLM-5](https://benchlm.ai/models/glm-5) | Z.AI | Open | 50.4% |
 
-*来源: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · 更新于 2026-06-01 · 共 36 个模型*
+*来源: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · 更新于 2026-06-02 · 共 36 个模型*
 <!-- AUTO:END slug=hle -->
 
 <br>
