@@ -6,9 +6,9 @@
   "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
   "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
   "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
-  "fetched_at": "2026-06-03T06:45:09Z",
-  "updated_at": "2026-06-02",
-  "total_models": 21,
+  "fetched_at": "2026-06-09T06:01:41Z",
+  "updated_at": "2026-06-08",
+  "total_models": 22,
   "top10": [
     {
       "rank": 1,
@@ -76,19 +76,19 @@
     },
     {
       "rank": 9,
+      "model": "Qwen3.7 Plus",
+      "model_url": "/models/qwen3-7-plus",
+      "provider": "Alibaba",
+      "license": "Closed",
+      "score": 73.3
+    },
+    {
+      "rank": 10,
       "model": "Kimi K2.6",
       "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
       "license": "Open",
       "score": 73.1
-    },
-    {
-      "rank": 10,
-      "model": "Claude Opus 4.6",
-      "model_url": "/models/claude-opus-4-6",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 72.7
     }
   ]
 }
