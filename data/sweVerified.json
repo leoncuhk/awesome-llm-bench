@@ -6,20 +6,28 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-06-09T06:01:37Z",
-  "updated_at": "2026-06-08",
-  "total_models": 52,
+  "fetched_at": "2026-06-10T06:14:56Z",
+  "updated_at": "2026-06-09",
+  "total_models": 53,
   "top10": [
     {
       "rank": 1,
-      "model": "Claude Mythos Preview",
-      "model_url": "/models/claude-mythos-preview",
+      "model": "Claude Mythos 5",
+      "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
       "license": "Closed",
-      "score": 93.9
+      "score": 95.5
     },
     {
       "rank": 2,
+      "model": "Claude Fable 5",
+      "model_url": "/models/claude-fable",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 95.0
+    },
+    {
+      "rank": 3,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
@@ -27,7 +35,7 @@
       "score": 88.6
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -35,7 +43,7 @@
       "score": 87.6
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-5.3 Codex",
       "model_url": "/models/gpt-5-3-codex",
       "provider": "OpenAI",
@@ -43,7 +51,7 @@
       "score": 85.0
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Opus 4.5",
       "model_url": "/models/claude-opus-4-5",
       "provider": "Anthropic",
@@ -51,7 +59,7 @@
       "score": 80.9
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Opus 4.6",
       "model_url": "/models/claude-opus-4-6",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 80.8
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "DeepSeek V4 Pro (Max)",
       "model_url": "/models/deepseek-v4-pro-max",
       "provider": "DeepSeek",
@@ -67,7 +75,7 @@
       "score": 80.6
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "MiniMax M3",
       "model_url": "/models/minimax-m3",
       "provider": "MiniMax",
@@ -75,20 +83,12 @@
       "score": 80.5
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Qwen3.7 Max",
       "model_url": "/models/qwen3-7-max",
       "provider": "Alibaba",
       "license": "Closed",
       "score": 80.4
-    },
-    {
-      "rank": 10,
-      "model": "Kimi K2.6",
-      "model_url": "/models/kimi-2-6",
-      "provider": "Moonshot AI",
-      "license": "Open",
-      "score": 80.2
     }
   ]
 }

@@ -6,9 +6,9 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-06-09T06:01:47Z",
-  "updated_at": "2026-06-08",
-  "total_models": 25,
+  "fetched_at": "2026-06-10T06:15:07Z",
+  "updated_at": "2026-06-09",
+  "total_models": 26,
   "top10": [
     {
       "rank": 1,
@@ -28,14 +28,22 @@
     },
     {
       "rank": 3,
-      "model": "Claude Mythos Preview",
-      "model_url": "/models/claude-mythos-preview",
+      "model": "Claude Mythos 5",
+      "model_url": "/models/claude-mythos-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 88.0
+    },
+    {
+      "rank": 4,
+      "model": "Claude Fable 5",
+      "model_url": "/models/claude-fable",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 86.9
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -43,7 +51,7 @@
       "score": 84.4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
@@ -51,7 +59,7 @@
       "score": 84.3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Opus 4.6",
       "model_url": "/models/claude-opus-4-6",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 83.7
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "MiniMax M3",
       "model_url": "/models/minimax-m3",
       "provider": "MiniMax",
@@ -67,7 +75,7 @@
       "score": 83.5
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "DeepSeek V4 Pro (Max)",
       "model_url": "/models/deepseek-v4-pro-max",
       "provider": "DeepSeek",
@@ -75,20 +83,12 @@
       "score": 83.4
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Kimi K2.6",
       "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
       "license": "Open",
       "score": 83.2
-    },
-    {
-      "rank": 10,
-      "model": "GPT-5.4",
-      "model_url": "/models/gpt-5-4",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 82.7
     }
   ]
 }
