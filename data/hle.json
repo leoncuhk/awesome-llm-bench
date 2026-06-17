@@ -6,9 +6,9 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-06-14T06:26:26Z",
-  "updated_at": "2026-06-13",
-  "total_models": 39,
+  "fetched_at": "2026-06-17T07:00:05Z",
+  "updated_at": "2026-06-16",
+  "total_models": 40,
   "top10": [
     {
       "rank": 1,
@@ -52,6 +52,14 @@
     },
     {
       "rank": 6,
+      "model": "GLM-5.2",
+      "model_url": "/models/glm-5-2",
+      "provider": "Z.AI",
+      "license": "Open",
+      "score": 54.7
+    },
+    {
+      "rank": 7,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 54.7
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Opus 4.6",
       "model_url": "/models/claude-opus-4-6",
       "provider": "Anthropic",
@@ -67,7 +75,7 @@
       "score": 53.0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GLM-5.1",
       "model_url": "/models/glm-5-1",
       "provider": "Z.AI",
@@ -75,20 +83,12 @@
       "score": 52.3
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 52.2
-    },
-    {
-      "rank": 10,
-      "model": "GPT-5.4",
-      "model_url": "/models/gpt-5-4",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 52.1
     }
   ]
 }

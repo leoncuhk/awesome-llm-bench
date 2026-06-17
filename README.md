@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-06-16** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-06-17** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -59,7 +59,7 @@ Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn
 | 9 | [MiniMax M3](https://benchlm.ai/models/minimax-m3) | MiniMax | Open | 80.5% |
 | 10 | [Qwen3.7 Max](https://benchlm.ai/models/qwen3-7-max) | Alibaba | Closed | 80.4% |
 
-*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-06-13 · Total models: 53*
+*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-06-16 · Total models: 53*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
@@ -80,7 +80,7 @@ Contamination-free code generation. Fresh problems are sampled continuously, mit
 | 9 | [MAI-Thinking-1](https://benchlm.ai/models/mai-thinking-1) | Microsoft | Closed | 87.7% |
 | 10 | [Kimi K2.5](https://benchlm.ai/models/kimi-k2-5) | Moonshot AI | Open | 85.0% |
 
-*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-06-13 · Total models: 20*
+*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-06-16 · Total models: 20*
 <!-- AUTO:END slug=liveCodeBench -->
 
 <br>
@@ -99,15 +99,15 @@ Multi-step terminal and CLI workflows. Models inspect files, run commands, edit 
 | 1 | [Claude Mythos 5](https://benchlm.ai/models/claude-mythos-5) | Anthropic | Closed | 88.0% |
 | 2 | [Claude Fable 5](https://benchlm.ai/models/claude-fable) | Anthropic | Closed | 84.3% |
 | 3 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 82.0% |
-| 4 | [Gemini 3.5 Flash](https://benchlm.ai/models/gemini-3-5-flash) | Google | Closed | 76.2% |
-| 5 | [Claude Opus 4.8](https://benchlm.ai/models/claude-opus-4-8) | Anthropic | Closed | 74.6% |
-| 6 | [Qwen3.7 Plus](https://benchlm.ai/models/qwen3-7-plus) | Alibaba | Closed | 70.3% |
-| 7 | [Qwen3.7 Max](https://benchlm.ai/models/qwen3-7-max) | Alibaba | Closed | 69.7% |
-| 8 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 69.4% |
-| 9 | [Composer 2.5](https://benchlm.ai/models/composer-2-5) | Cursor | Closed | 69.3% |
-| 10 | [MiMo-V2.5-Pro](https://benchlm.ai/models/mimo-v2-5-pro) | Xiaomi | Closed | 68.4% |
+| 4 | [GLM-5.2](https://benchlm.ai/models/glm-5-2) | Z.AI | Open | 81.0% |
+| 5 | [Gemini 3.5 Flash](https://benchlm.ai/models/gemini-3-5-flash) | Google | Closed | 76.2% |
+| 6 | [Claude Opus 4.8](https://benchlm.ai/models/claude-opus-4-8) | Anthropic | Closed | 74.6% |
+| 7 | [Qwen3.7 Plus](https://benchlm.ai/models/qwen3-7-plus) | Alibaba | Closed | 70.3% |
+| 8 | [Qwen3.7 Max](https://benchlm.ai/models/qwen3-7-max) | Alibaba | Closed | 69.7% |
+| 9 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 69.4% |
+| 10 | [Composer 2.5](https://benchlm.ai/models/composer-2-5) | Cursor | Closed | 69.3% |
 
-*Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-06-13 · Total models: 29*
+*Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-06-16 · Total models: 30*
 <!-- AUTO:END slug=terminalBench2 -->
 
 ### OSWorld-Verified
@@ -128,7 +128,7 @@ Computer-use tasks in desktop GUIs. Navigation, editing, and complex multi-step 
 | 9 | [GPT-5.4](https://benchlm.ai/models/gpt-5-4) | OpenAI | Closed | 75.0% |
 | 10 | [Qwen3.7 Plus](https://benchlm.ai/models/qwen3-7-plus) | Alibaba | Closed | 73.3% |
 
-*Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-06-13 · Total models: 23*
+*Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-06-16 · Total models: 23*
 <!-- AUTO:END slug=osWorldVerified -->
 
 ### BrowseComp
@@ -149,7 +149,7 @@ Web-research agents. Models search, inspect sources, gather evidence, and return
 | 9 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 83.4% |
 | 10 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 83.2% |
 
-*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-06-13 · Total models: 26*
+*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-06-16 · Total models: 26*
 <!-- AUTO:END slug=browseComp -->
 
 <br>
@@ -176,7 +176,7 @@ Abstraction and reasoning grid puzzles. A frontier general-intelligence test whe
 | 9 | [Muse Spark](https://benchlm.ai/models/muse-spark) | Meta | Closed | 42.5% |
 | 10 | [Gemini 3 Pro](https://benchlm.ai/models/gemini-3-pro) | Google | Closed | 31.1% |
 
-*Source: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · Updated 2026-06-13 · Total models: 11*
+*Source: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · Updated 2026-06-16 · Total models: 11*
 <!-- AUTO:END slug=arcAgi2 -->
 
 <br>
@@ -197,13 +197,13 @@ Expert-level questions across all academic domains. Designed to be hard for fron
 | 3 | [GPT-5.4 Pro](https://benchlm.ai/models/gpt-5-4-pro) | OpenAI | Closed | 58.7% |
 | 4 | [Claude Opus 4.8](https://benchlm.ai/models/claude-opus-4-8) | Anthropic | Closed | 57.9% |
 | 5 | [GPT-5.5 Pro](https://benchlm.ai/models/gpt-5-5-pro) | OpenAI | Closed | 57.2% |
-| 6 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 54.7% |
-| 7 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 53.0% |
-| 8 | [GLM-5.1](https://benchlm.ai/models/glm-5-1) | Z.AI | Open | 52.3% |
-| 9 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 52.2% |
-| 10 | [GPT-5.4](https://benchlm.ai/models/gpt-5-4) | OpenAI | Closed | 52.1% |
+| 6 | [GLM-5.2](https://benchlm.ai/models/glm-5-2) | Z.AI | Open | 54.7% |
+| 7 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 54.7% |
+| 8 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 53.0% |
+| 9 | [GLM-5.1](https://benchlm.ai/models/glm-5-1) | Z.AI | Open | 52.3% |
+| 10 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 52.2% |
 
-*Source: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · Updated 2026-06-13 · Total models: 39*
+*Source: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · Updated 2026-06-16 · Total models: 40*
 <!-- AUTO:END slug=hle -->
 
 <br>
