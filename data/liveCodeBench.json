@@ -6,9 +6,9 @@
   "blurb": "Contamination-free code generation, fresh problems sampled continuously.",
   "blurb_zh": "防污染代码生成,持续采样新题目。",
   "source_url": "https://benchlm.ai/benchmarks/liveCodeBench",
-  "fetched_at": "2026-06-27T05:46:39Z",
-  "updated_at": "2026-06-27",
-  "total_models": 20,
+  "fetched_at": "2026-06-30T06:02:30Z",
+  "updated_at": "2026-06-29",
+  "total_models": 21,
   "top10": [
     {
       "rank": 1,
@@ -20,6 +20,14 @@
     },
     {
       "rank": 2,
+      "model": "Sakana Fugu Ultra",
+      "model_url": "/models/sakana-fugu-ultra",
+      "provider": "Sakana AI",
+      "license": "Closed",
+      "score": 93.2
+    },
+    {
+      "rank": 3,
       "model": "Qwen3.7 Max",
       "model_url": "/models/qwen3-7-max",
       "provider": "Alibaba",
@@ -27,7 +35,7 @@
       "score": 91.6
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "DeepSeek V4 Flash (Max)",
       "model_url": "/models/deepseek-v4-flash-max",
       "provider": "DeepSeek",
@@ -35,7 +43,7 @@
       "score": 91.6
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "DeepSeek V4 Pro (High)",
       "model_url": "/models/deepseek-v4-pro-high",
       "provider": "DeepSeek",
@@ -43,7 +51,7 @@
       "score": 89.8
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Qwen3.7 Plus",
       "model_url": "/models/qwen3-7-plus",
       "provider": "Alibaba",
@@ -51,7 +59,7 @@
       "score": 89.6
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Kimi K2.6",
       "model_url": "/models/kimi-2-6",
       "provider": "Moonshot AI",
@@ -59,7 +67,7 @@
       "score": 89.6
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Nemotron 3 Ultra",
       "model_url": "/models/nemotron-3-ultra",
       "provider": "NVIDIA",
@@ -67,7 +75,7 @@
       "score": 89.0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "DeepSeek V4 Flash (High)",
       "model_url": "/models/deepseek-v4-flash-high",
       "provider": "DeepSeek",
@@ -75,20 +83,12 @@
       "score": 88.4
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "MAI-Thinking-1",
       "model_url": "/models/mai-thinking-1",
       "provider": "Microsoft",
       "license": "Closed",
       "score": 87.7
-    },
-    {
-      "rank": 10,
-      "model": "Kimi K2.5",
-      "model_url": "/models/kimi-k2-5",
-      "provider": "Moonshot AI",
-      "license": "Open",
-      "score": 85.0
     }
   ]
 }

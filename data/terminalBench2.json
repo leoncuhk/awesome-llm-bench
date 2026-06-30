@@ -6,9 +6,9 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-06-27T05:46:35Z",
-  "updated_at": "2026-06-27",
-  "total_models": 30,
+  "fetched_at": "2026-06-30T06:02:27Z",
+  "updated_at": "2026-06-29",
+  "total_models": 34,
   "top10": [
     {
       "rank": 1,
@@ -28,6 +28,14 @@
     },
     {
       "rank": 3,
+      "model": "Sakana Fugu Ultra",
+      "model_url": "/models/sakana-fugu-ultra",
+      "provider": "Sakana AI",
+      "license": "Closed",
+      "score": 82.1
+    },
+    {
+      "rank": 4,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -35,7 +43,7 @@
       "score": 82.0
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GLM-5.2",
       "model_url": "/models/glm-5-2",
       "provider": "Z.AI",
@@ -43,7 +51,15 @@
       "score": 81.0
     },
     {
-      "rank": 5,
+      "rank": 6,
+      "model": "Ornith-1.0-397B",
+      "model_url": "/models/ornith-1-0-397b",
+      "provider": "DeepReinforce",
+      "license": "Open",
+      "score": 77.5
+    },
+    {
+      "rank": 7,
       "model": "Gemini 3.5 Flash",
       "model_url": "/models/gemini-3-5-flash",
       "provider": "Google",
@@ -51,7 +67,7 @@
       "score": 76.2
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
@@ -59,7 +75,7 @@
       "score": 74.6
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "Qwen3.7 Plus",
       "model_url": "/models/qwen3-7-plus",
       "provider": "Alibaba",
@@ -67,28 +83,12 @@
       "score": 70.3
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "Qwen3.7 Max",
       "model_url": "/models/qwen3-7-max",
       "provider": "Alibaba",
       "license": "Closed",
       "score": 69.7
-    },
-    {
-      "rank": 9,
-      "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 69.4
-    },
-    {
-      "rank": 10,
-      "model": "Composer 2.5",
-      "model_url": "/models/composer-2-5",
-      "provider": "Cursor",
-      "license": "Closed",
-      "score": 69.3
     }
   ]
 }

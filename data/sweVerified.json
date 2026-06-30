@@ -6,9 +6,9 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-06-27T05:46:33Z",
-  "updated_at": "2026-06-27",
-  "total_models": 53,
+  "fetched_at": "2026-06-30T06:02:25Z",
+  "updated_at": "2026-06-29",
+  "total_models": 55,
   "top10": [
     {
       "rank": 1,
@@ -52,6 +52,14 @@
     },
     {
       "rank": 6,
+      "model": "Ornith-1.0-397B",
+      "model_url": "/models/ornith-1-0-397b",
+      "provider": "DeepReinforce",
+      "license": "Open",
+      "score": 82.4
+    },
+    {
+      "rank": 7,
       "model": "Claude Opus 4.5",
       "model_url": "/models/claude-opus-4-5",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 80.9
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Opus 4.6",
       "model_url": "/models/claude-opus-4-6",
       "provider": "Anthropic",
@@ -67,7 +75,7 @@
       "score": 80.8
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "DeepSeek V4 Pro (Max)",
       "model_url": "/models/deepseek-v4-pro-max",
       "provider": "DeepSeek",
@@ -75,20 +83,12 @@
       "score": 80.6
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "MiniMax M3",
       "model_url": "/models/minimax-m3",
       "provider": "MiniMax",
       "license": "Open",
       "score": 80.5
-    },
-    {
-      "rank": 10,
-      "model": "Qwen3.7 Max",
-      "model_url": "/models/qwen3-7-max",
-      "provider": "Alibaba",
-      "license": "Closed",
-      "score": 80.4
     }
   ]
 }
