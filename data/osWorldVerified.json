@@ -6,9 +6,9 @@
   "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
   "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
   "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
-  "fetched_at": "2026-06-30T06:02:28Z",
-  "updated_at": "2026-06-29",
-  "total_models": 23,
+  "fetched_at": "2026-07-01T06:17:36Z",
+  "updated_at": "2026-07-01",
+  "total_models": 24,
   "top10": [
     {
       "rank": 1,
@@ -44,6 +44,14 @@
     },
     {
       "rank": 5,
+      "model": "Claude Sonnet 5",
+      "model_url": "/models/claude-sonnet-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 81.2
+    },
+    {
+      "rank": 6,
       "model": "Holo3-122B-A10B",
       "model_url": "/models/holo3-122b-a10b",
       "provider": "H Company",
@@ -51,7 +59,7 @@
       "score": 78.8
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -59,7 +67,7 @@
       "score": 78.7
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Gemini 3.5 Flash",
       "model_url": "/models/gemini-3-5-flash",
       "provider": "Google",
@@ -67,7 +75,7 @@
       "score": 78.4
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -75,20 +83,12 @@
       "score": 78.0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.4",
       "model_url": "/models/gpt-5-4",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 75.0
-    },
-    {
-      "rank": 10,
-      "model": "Qwen3.7 Plus",
-      "model_url": "/models/qwen3-7-plus",
-      "provider": "Alibaba",
-      "license": "Closed",
-      "score": 73.3
     }
   ]
 }

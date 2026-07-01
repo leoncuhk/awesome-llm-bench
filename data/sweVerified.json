@@ -6,8 +6,8 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-06-30T06:02:25Z",
-  "updated_at": "2026-06-29",
+  "fetched_at": "2026-07-01T06:17:33Z",
+  "updated_at": "2026-07-01",
   "total_models": 55,
   "top10": [
     {
