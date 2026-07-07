@@ -6,22 +6,22 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-07-04T05:37:56Z",
-  "updated_at": "2026-07-04",
+  "fetched_at": "2026-07-07T05:59:49Z",
+  "updated_at": "2026-07-06",
   "total_models": 41,
   "top10": [
     {
       "rank": 1,
-      "model": "Claude Mythos 5",
-      "model_url": "/models/claude-mythos-5",
+      "model": "Claude Fable 5",
+      "model_url": "/models/claude-fable",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 64.5
     },
     {
       "rank": 2,
-      "model": "Claude Fable 5",
-      "model_url": "/models/claude-fable",
+      "model": "Claude Mythos 5",
+      "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 64.5
