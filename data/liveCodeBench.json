@@ -6,8 +6,8 @@
   "blurb": "Contamination-free code generation, fresh problems sampled continuously.",
   "blurb_zh": "防污染代码生成,持续采样新题目。",
   "source_url": "https://benchlm.ai/benchmarks/liveCodeBench",
-  "fetched_at": "2026-07-07T05:59:46Z",
-  "updated_at": "2026-07-06",
+  "fetched_at": "2026-07-08T05:12:22Z",
+  "updated_at": "2026-07-07",
   "total_models": 20,
   "top10": [
     {
