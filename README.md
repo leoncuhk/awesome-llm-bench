@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-07-08** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-07-09** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -48,18 +48,9 @@ Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn
 <!-- AUTO:START slug=sweVerified lang=en -->
 | Rank | Model | Provider | License | Score |
 | :-: | :-- | :-- | :-: | --: |
-| 1 | [Claude Mythos 5](https://benchlm.ai/models/claude-mythos-5) | Anthropic | Closed | 95.5% |
-| 2 | [Claude Fable 5](https://benchlm.ai/models/claude-fable) | Anthropic | Closed | 95.0% |
-| 3 | [Claude Opus 4.8](https://benchlm.ai/models/claude-opus-4-8) | Anthropic | Closed | 88.6% |
-| 4 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 87.6% |
-| 5 | [Claude Sonnet 5](https://benchlm.ai/models/claude-sonnet-5) | Anthropic | Closed | 85.2% |
-| 6 | [GPT-5.3 Codex](https://benchlm.ai/models/gpt-5-3-codex) | OpenAI | Closed | 85.0% |
-| 7 | [Ornith-1.0-397B](https://benchlm.ai/models/ornith-1-0-397b) | DeepReinforce AI | Open | 82.4% |
-| 8 | [Claude Opus 4.5](https://benchlm.ai/models/claude-opus-4-5) | Anthropic | Closed | 80.9% |
-| 9 | [Claude Opus 4.6](https://benchlm.ai/models/claude-opus-4-6) | Anthropic | Closed | 80.8% |
-| 10 | [DeepSeek V4 Pro (Max)](https://benchlm.ai/models/deepseek-v4-pro-max) | DeepSeek | Open | 80.6% |
+| 54 | [o3-mini](https://benchlm.ai/models/o3-mini) | OpenAI | Closed | 49.3% |
 
-*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-07-07 · Total models: 57*
+*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-07-08 · Total models: 57*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench

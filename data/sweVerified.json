@@ -6,89 +6,17 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-07-08T05:12:17Z",
-  "updated_at": "2026-07-07",
+  "fetched_at": "2026-07-09T06:01:24Z",
+  "updated_at": "2026-07-08",
   "total_models": 57,
   "top10": [
     {
-      "rank": 1,
-      "model": "Claude Mythos 5",
-      "model_url": "/models/claude-mythos-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 95.5
-    },
-    {
-      "rank": 2,
-      "model": "Claude Fable 5",
-      "model_url": "/models/claude-fable",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 95.0
-    },
-    {
-      "rank": 3,
-      "model": "Claude Opus 4.8",
-      "model_url": "/models/claude-opus-4-8",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 88.6
-    },
-    {
-      "rank": 4,
-      "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 87.6
-    },
-    {
-      "rank": 5,
-      "model": "Claude Sonnet 5",
-      "model_url": "/models/claude-sonnet-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 85.2
-    },
-    {
-      "rank": 6,
-      "model": "GPT-5.3 Codex",
-      "model_url": "/models/gpt-5-3-codex",
+      "rank": 54,
+      "model": "o3-mini",
+      "model_url": "/models/o3-mini",
       "provider": "OpenAI",
       "license": "Closed",
-      "score": 85.0
-    },
-    {
-      "rank": 7,
-      "model": "Ornith-1.0-397B",
-      "model_url": "/models/ornith-1-0-397b",
-      "provider": "DeepReinforce AI",
-      "license": "Open",
-      "score": 82.4
-    },
-    {
-      "rank": 8,
-      "model": "Claude Opus 4.5",
-      "model_url": "/models/claude-opus-4-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 80.9
-    },
-    {
-      "rank": 9,
-      "model": "Claude Opus 4.6",
-      "model_url": "/models/claude-opus-4-6",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 80.8
-    },
-    {
-      "rank": 10,
-      "model": "DeepSeek V4 Pro (Max)",
-      "model_url": "/models/deepseek-v4-pro-max",
-      "provider": "DeepSeek",
-      "license": "Open",
-      "score": 80.6
+      "score": 49.3
     }
   ]
 }
