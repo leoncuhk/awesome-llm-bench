@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-07-09** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-07-10** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -50,7 +50,7 @@ Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn
 | :-: | :-- | :-- | :-: | --: |
 | 54 | [o3-mini](https://benchlm.ai/models/o3-mini) | OpenAI | Closed | 49.3% |
 
-*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-07-08 · Total models: 57*
+*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-07-09 · Total models: 57*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
