@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![English](https://img.shields.io/badge/lang-English-000.svg)](README.md)
 
-<!-- LAST_SYNC -->最近同步: **2026-07-10** (UTC,每日自动更新)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->最近同步: **2026-07-11** (UTC,每日自动更新)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -50,7 +50,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | :-: | :-- | :-- | :-: | --: |
 | 54 | [o3-mini](https://benchlm.ai/models/o3-mini) | OpenAI | Closed | 49.3% |
 
-*来源: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · 更新于 2026-07-09 · 共 57 个模型*
+*来源: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · 更新于 2026-07-10 · 共 57 个模型*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
