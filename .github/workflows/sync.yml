@@ -34,8 +34,6 @@ jobs:
 
       - name: Fetch all benchmarks
         run: python scripts/fetch_benchmark.py --all
-        # Continue even if some benchmarks fail — partial sync is better than none.
-        continue-on-error: true
 
       - name: Render READMEs
         run: python scripts/render_readme.py

@@ -26,13 +26,16 @@ Writes data/<slug>.json with structure:
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import ssl
 import sys
 import time
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -68,21 +71,34 @@ def load_config() -> list[dict]:
     return items
 
 
-def fetch_html(url: str, timeout: int = 20) -> str:
+def fetch_html(url: str, timeout: int = 20, attempts: int = 3) -> str:
     headers = {
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Language": "en-US,en;q=0.9",
     }
-    req = Request(url, headers=headers)
     ctx = ssl.create_default_context()
-    with urlopen(req, timeout=timeout, context=ctx) as resp:
-        raw = resp.read()
-        if resp.headers.get("Content-Encoding") == "gzip":
-            import gzip
-            raw = gzip.decompress(raw)
-        charset = resp.headers.get_content_charset() or "utf-8"
-        return raw.decode(charset, errors="replace")
+    last_error: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            req = Request(url, headers=headers)
+            with urlopen(req, timeout=timeout, context=ctx) as resp:
+                raw = resp.read()
+                if resp.headers.get("Content-Encoding") == "gzip":
+                    import gzip
+                    raw = gzip.decompress(raw)
+                charset = resp.headers.get_content_charset() or "utf-8"
+                return raw.decode(charset, errors="replace")
+        except HTTPError as exc:
+            # Retry rate limits and transient server errors, but fail fast on 4xx.
+            last_error = exc
+            if exc.code < 500 and exc.code != 429:
+                raise
+        except (URLError, TimeoutError, OSError) as exc:
+            last_error = exc
+        if attempt < attempts - 1:
+            time.sleep(2 ** attempt)
+    raise RuntimeError(f"Could not fetch {url} after {attempts} attempts: {last_error}")
 
 
 def html_to_markdown(html_raw: str) -> str:
@@ -93,6 +109,47 @@ def html_to_markdown(html_raw: str) -> str:
     h.ignore_images = True
     h.body_width = 0
     return h.handle(html_raw)
+
+
+class _NextDataParser(HTMLParser):
+    """Extract the JSON payload emitted by Next.js without parsing the page DOM."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=False)
+        self._capture = False
+        self.parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "script":
+            return
+        attributes = dict(attrs)
+        if attributes.get("id") == "__NEXT_DATA__":
+            self._capture = True
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.lower() == "script" and self._capture:
+            self._capture = False
+
+    def handle_data(self, data: str) -> None:
+        if self._capture:
+            self.parts.append(data)
+
+
+def extract_next_data(html_raw: str) -> dict | None:
+    """Return Next.js page data when the source page exposes it."""
+    parser = _NextDataParser()
+    parser.feed(html_raw)
+    if not parser.parts:
+        return None
+    payload = "".join(parser.parts).strip()
+    try:
+        return json.loads(payload)
+    except json.JSONDecodeError:
+        # Some deployments HTML-escape the JSON script contents.
+        try:
+            return json.loads(html.unescape(payload))
+        except json.JSONDecodeError:
+            return None
 
 
 # Regex for the leaderboard rows in the rendered Markdown.
@@ -151,12 +208,68 @@ def parse_top10(md: str) -> tuple[list[dict], str | None, int | None]:
     return top10, updated_at, total
 
 
+def _parse_date(value: str | None) -> str | None:
+    if not value:
+        return None
+    for fmt in ("%B %d, %Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(value, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return value
+
+
+def parse_next_data(data: dict) -> tuple[list[dict], str | None, int | None]:
+    """Parse the current BenchLM leaderboard payload."""
+    try:
+        page_props = data["props"]["pageProps"]
+        if not isinstance(page_props, dict):
+            return [], None, None
+        leaderboard = page_props["leaderboard"]
+    except (KeyError, TypeError):
+        return [], None, None
+    if not isinstance(leaderboard, list):
+        return [], None, None
+
+    license_map = {"Proprietary": "Closed", "Open Weight": "Open"}
+    entries: list[dict] = []
+    for index, row in enumerate(leaderboard[:10], start=1):
+        if not isinstance(row, dict):
+            return [], _parse_date(page_props.get("lastUpdated")), len(leaderboard)
+        model = row.get("model")
+        slug = row.get("slug")
+        creator = row.get("creator")
+        score = row.get("score")
+        if not model or not slug or not creator or not isinstance(score, (int, float)):
+            return [], _parse_date(page_props.get("lastUpdated")), len(leaderboard)
+        source_type = str(row.get("sourceType") or "Unknown")
+        entries.append({
+            "rank": index,
+            "model": str(model).strip(),
+            "model_url": f"/models/{str(slug).strip()}",
+            "provider": str(creator).strip(),
+            "license": license_map.get(source_type, source_type),
+            "score": float(score),
+        })
+
+    updated_at = _parse_date(page_props.get("lastUpdated"))
+    return entries, updated_at, len(leaderboard)
+
+
 def fetch_one(item: dict) -> dict:
     slug = item["slug"]
     url = f"https://benchlm.ai/benchmarks/{slug}"
     html_raw = fetch_html(url)
-    md = html_to_markdown(html_raw)
-    top10, updated_at, total = parse_top10(md)
+    next_data = extract_next_data(html_raw)
+    if next_data is not None:
+        top10, updated_at, total = parse_next_data(next_data)
+    else:
+        top10, updated_at, total = [], None, None
+
+    if not top10:
+        # Keep compatibility with older/static BenchLM pages.
+        md = html_to_markdown(html_raw)
+        top10, updated_at, total = parse_top10(md)
     if not top10:
         raise RuntimeError(f"Could not parse leaderboard from {url}")
     return {

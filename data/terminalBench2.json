@@ -6,12 +6,20 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-07-08T05:12:19Z",
-  "updated_at": "2026-07-07",
-  "total_models": 36,
+  "fetched_at": "2026-08-19T03:24:17Z",
+  "updated_at": "2026-08-18",
+  "total_models": 48,
   "top10": [
     {
       "rank": 1,
+      "model": "GPT-5.6 Sol",
+      "model_url": "/models/gpt-5-6-sol",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 91.9
+    },
+    {
+      "rank": 2,
       "model": "Claude Mythos 5",
       "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
@@ -19,7 +27,23 @@
       "score": 88.0
     },
     {
-      "rank": 2,
+      "rank": 3,
+      "model": "GPT-5.6 Terra",
+      "model_url": "/models/gpt-5-6-terra",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 87.4
+    },
+    {
+      "rank": 4,
+      "model": "GPT-5.6 Luna",
+      "model_url": "/models/gpt-5-6-luna",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 84.7
+    },
+    {
+      "rank": 5,
       "model": "Claude Fable 5",
       "model_url": "/models/claude-fable",
       "provider": "Anthropic",
@@ -27,7 +51,15 @@
       "score": 84.3
     },
     {
-      "rank": 3,
+      "rank": 6,
+      "model": "Grok 4.5",
+      "model_url": "/models/grok-4-5",
+      "provider": "xAI",
+      "license": "Closed",
+      "score": 83.3
+    },
+    {
+      "rank": 7,
       "model": "Sakana Fugu-Ultra",
       "model_url": "/models/sakana-fugu-ultra",
       "provider": "Sakana AI",
@@ -35,7 +67,7 @@
       "score": 82.1
     },
     {
-      "rank": 4,
+      "rank": 8,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -43,52 +75,20 @@
       "score": 82.0
     },
     {
-      "rank": 5,
+      "rank": 9,
+      "model": "SWE-1.7",
+      "model_url": "/models/swe-1-7",
+      "provider": "Cognition",
+      "license": "Closed",
+      "score": 81.5
+    },
+    {
+      "rank": 10,
       "model": "GLM-5.2",
       "model_url": "/models/glm-5-2",
       "provider": "Z.AI",
       "license": "Open",
       "score": 81.0
-    },
-    {
-      "rank": 6,
-      "model": "Claude Sonnet 5",
-      "model_url": "/models/claude-sonnet-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 80.4
-    },
-    {
-      "rank": 7,
-      "model": "Sakana Fugu",
-      "model_url": "/models/sakana-fugu",
-      "provider": "Sakana AI",
-      "license": "Closed",
-      "score": 80.2
-    },
-    {
-      "rank": 8,
-      "model": "Ornith-1.0-397B",
-      "model_url": "/models/ornith-1-0-397b",
-      "provider": "DeepReinforce AI",
-      "license": "Open",
-      "score": 77.5
-    },
-    {
-      "rank": 9,
-      "model": "Gemini 3.5 Flash",
-      "model_url": "/models/gemini-3-5-flash",
-      "provider": "Google",
-      "license": "Closed",
-      "score": 76.2
-    },
-    {
-      "rank": 10,
-      "model": "Claude Opus 4.8",
-      "model_url": "/models/claude-opus-4-8",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 74.6
     }
   ]
 }

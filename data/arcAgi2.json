@@ -6,12 +6,28 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-07-08T05:12:23Z",
-  "updated_at": "2026-07-07",
-  "total_models": 11,
+  "fetched_at": "2026-08-19T03:24:21Z",
+  "updated_at": "2026-08-18",
+  "total_models": 21,
   "top10": [
     {
       "rank": 1,
+      "model": "GPT-5.6 Sol",
+      "model_url": "/models/gpt-5-6-sol",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 92.5
+    },
+    {
+      "rank": 2,
+      "model": "Claude Opus 5",
+      "model_url": "/models/claude-opus-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 90.4
+    },
+    {
+      "rank": 3,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -19,7 +35,15 @@
       "score": 85.0
     },
     {
-      "rank": 2,
+      "rank": 4,
+      "model": "GPT-5.6 Terra",
+      "model_url": "/models/gpt-5-6-terra",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 83.9
+    },
+    {
+      "rank": 5,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -27,15 +51,23 @@
       "score": 83.3
     },
     {
-      "rank": 3,
+      "rank": 6,
+      "model": "dots3-note Preview",
+      "model_url": "/models/dots3-note-preview",
+      "provider": "Dots Studio",
+      "license": "Open",
+      "score": 81.4
+    },
+    {
+      "rank": 7,
       "model": "Gemini 3.1 Pro",
       "model_url": "/models/gemini-3-1-pro",
       "provider": "Google",
       "license": "Closed",
-      "score": 77.1
+      "score": 77.08
     },
     {
-      "rank": 4,
+      "rank": 8,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -43,52 +75,20 @@
       "score": 75.8
     },
     {
-      "rank": 5,
+      "rank": 9,
+      "model": "GPT-5.4",
+      "model_url": "/models/gpt-5-4",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 73.95
+    },
+    {
+      "rank": 10,
       "model": "Gemini 3.5 Flash",
       "model_url": "/models/gemini-3-5-flash",
       "provider": "Google",
       "license": "Closed",
       "score": 72.1
-    },
-    {
-      "rank": 6,
-      "model": "Grok 4.20",
-      "model_url": "/models/grok-4-20-beta",
-      "provider": "xAI",
-      "license": "Closed",
-      "score": 53.3
-    },
-    {
-      "rank": 7,
-      "model": "GPT-5.2",
-      "model_url": "/models/gpt-5-2",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 52.9
-    },
-    {
-      "rank": 8,
-      "model": "Gemini 3 Pro Deep Think",
-      "model_url": "/models/gemini-3-pro-deep-think",
-      "provider": "Google",
-      "license": "Closed",
-      "score": 45.1
-    },
-    {
-      "rank": 9,
-      "model": "Muse Spark",
-      "model_url": "/models/muse-spark",
-      "provider": "Meta",
-      "license": "Closed",
-      "score": 42.5
-    },
-    {
-      "rank": 10,
-      "model": "Gemini 3 Pro",
-      "model_url": "/models/gemini-3-pro",
-      "provider": "Google",
-      "license": "Closed",
-      "score": 31.1
     }
   ]
 }

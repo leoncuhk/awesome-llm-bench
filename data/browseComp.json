@@ -6,12 +6,36 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-07-08T05:12:27Z",
-  "updated_at": "2026-07-07",
-  "total_models": 28,
+  "fetched_at": "2026-08-19T03:24:23Z",
+  "updated_at": "2026-08-18",
+  "total_models": 37,
   "top10": [
     {
       "rank": 1,
+      "model": "GPT-5.6 Sol",
+      "model_url": "/models/gpt-5-6-sol",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 92.2
+    },
+    {
+      "rank": 2,
+      "model": "Kimi K3",
+      "model_url": "/models/kimi-3",
+      "provider": "Moonshot AI",
+      "license": "Pending",
+      "score": 91.2
+    },
+    {
+      "rank": 3,
+      "model": "Claude Opus 5",
+      "model_url": "/models/claude-opus-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 90.8
+    },
+    {
+      "rank": 4,
       "model": "GPT-5.5 Pro",
       "model_url": "/models/gpt-5-5-pro",
       "provider": "OpenAI",
@@ -19,7 +43,7 @@
       "score": 90.1
     },
     {
-      "rank": 2,
+      "rank": 5,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -27,7 +51,7 @@
       "score": 89.3
     },
     {
-      "rank": 3,
+      "rank": 6,
       "model": "Claude Mythos 5",
       "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
@@ -35,15 +59,15 @@
       "score": 88.0
     },
     {
-      "rank": 4,
-      "model": "Claude Fable 5",
-      "model_url": "/models/claude-fable",
-      "provider": "Anthropic",
+      "rank": 7,
+      "model": "GPT-5.6 Terra",
+      "model_url": "/models/gpt-5-6-terra",
+      "provider": "OpenAI",
       "license": "Closed",
-      "score": 86.9
+      "score": 87.5
     },
     {
-      "rank": 5,
+      "rank": 8,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
@@ -51,7 +75,7 @@
       "score": 84.7
     },
     {
-      "rank": 6,
+      "rank": 9,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -59,36 +83,12 @@
       "score": 84.4
     },
     {
-      "rank": 7,
+      "rank": 10,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 84.3
-    },
-    {
-      "rank": 8,
-      "model": "Claude Opus 4.6",
-      "model_url": "/models/claude-opus-4-6",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 83.7
-    },
-    {
-      "rank": 9,
-      "model": "MiniMax M3",
-      "model_url": "/models/minimax-m3",
-      "provider": "MiniMax",
-      "license": "Open",
-      "score": 83.5
-    },
-    {
-      "rank": 10,
-      "model": "DeepSeek V4 Pro (Max)",
-      "model_url": "/models/deepseek-v4-pro-max",
-      "provider": "DeepSeek",
-      "license": "Open",
-      "score": 83.4
     }
   ]
 }

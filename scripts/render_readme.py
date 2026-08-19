@@ -102,7 +102,10 @@ def render(readme: Path, lang: str, items: list[dict]) -> bool:
     for data in items:
         body = render_table(data, lang)
         text = replace_block(text, data["slug"], lang, body)
-    text = update_last_sync(text, lang)
+    # Do not create a daily README-only commit when source data is unchanged.
+    # The sync date represents the last substantive leaderboard update.
+    if text != original:
+        text = update_last_sync(text, lang)
     if text != original:
         readme.write_text(text, encoding="utf-8")
         print(f"[OK] updated {readme.name}")
