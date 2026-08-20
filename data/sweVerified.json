@@ -6,9 +6,9 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-08-19T03:24:15Z",
-  "updated_at": "2026-08-18",
-  "total_models": 64,
+  "fetched_at": "2026-08-20T02:48:45Z",
+  "updated_at": "2026-08-19",
+  "total_models": 67,
   "top10": [
     {
       "rank": 1,
@@ -52,6 +52,14 @@
     },
     {
       "rank": 6,
+      "model": "Ornith-1.5-397B",
+      "model_url": "/models/ornith-1-5-397b",
+      "provider": "Ornith AI",
+      "license": "Open",
+      "score": 86.0
+    },
+    {
+      "rank": 7,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 85.2
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-5.3 Codex",
       "model_url": "/models/gpt-5-3-codex",
       "provider": "OpenAI",
@@ -67,7 +75,7 @@
       "score": 85.0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Ornith-1.0-397B",
       "model_url": "/models/ornith-1-0-397b",
       "provider": "DeepReinforce AI",
@@ -75,20 +83,12 @@
       "score": 82.4
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Opus 4.5",
       "model_url": "/models/claude-opus-4-5",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 80.9
-    },
-    {
-      "rank": 10,
-      "model": "Claude Opus 4.6",
-      "model_url": "/models/claude-opus-4-6",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 80.84
     }
   ]
 }
