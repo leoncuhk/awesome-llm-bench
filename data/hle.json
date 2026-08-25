@@ -6,9 +6,9 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-08-23T02:54:23Z",
-  "updated_at": "2026-08-22",
-  "total_models": 53,
+  "fetched_at": "2026-08-25T02:50:47Z",
+  "updated_at": "2026-08-24",
+  "total_models": 54,
   "top10": [
     {
       "rank": 1,
@@ -68,6 +68,14 @@
     },
     {
       "rank": 8,
+      "model": "Apodex 1.1",
+      "model_url": "/models/apodex-1-1",
+      "provider": "Apodex",
+      "license": "Closed",
+      "score": 56.1
+    },
+    {
+      "rank": 9,
       "model": "Kimi K3",
       "model_url": "/models/kimi-k3",
       "provider": "Moonshot AI",
@@ -75,19 +83,11 @@
       "score": 56.0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GLM-5.2",
       "model_url": "/models/glm-5-2",
       "provider": "Z.AI",
       "license": "Open",
-      "score": 54.7
-    },
-    {
-      "rank": 10,
-      "model": "Claude Opus 4.7 (Adaptive)",
-      "model_url": "/models/claude-opus-4-7-adaptive",
-      "provider": "Anthropic",
-      "license": "Closed",
       "score": 54.7
     }
   ]
