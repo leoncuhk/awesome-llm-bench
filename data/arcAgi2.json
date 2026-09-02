@@ -6,9 +6,9 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-09-01T06:59:53Z",
-  "updated_at": "2026-08-31",
-  "total_models": 21,
+  "fetched_at": "2026-09-02T06:38:18Z",
+  "updated_at": "2026-09-01",
+  "total_models": 22,
   "top10": [
     {
       "rank": 1,
@@ -28,6 +28,14 @@
     },
     {
       "rank": 3,
+      "model": "Claude Fable 5.1",
+      "model_url": "/models/claude-fable-5-1",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 90.0
+    },
+    {
+      "rank": 4,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -35,7 +43,7 @@
       "score": 85.0
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-5.6 Terra",
       "model_url": "/models/gpt-5-6-terra",
       "provider": "OpenAI",
@@ -43,7 +51,7 @@
       "score": 83.9
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -51,7 +59,7 @@
       "score": 83.3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "dots3-note Preview",
       "model_url": "/models/dots3-note-preview",
       "provider": "Dots Studio",
@@ -59,7 +67,7 @@
       "score": 81.4
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Gemini 3.1 Pro",
       "model_url": "/models/gemini-3-1-pro",
       "provider": "Google",
@@ -67,7 +75,7 @@
       "score": 77.08
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -75,20 +83,12 @@
       "score": 75.8
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.4",
       "model_url": "/models/gpt-5-4",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 73.95
-    },
-    {
-      "rank": 10,
-      "model": "Gemini 3.5 Flash",
-      "model_url": "/models/gemini-3-5-flash",
-      "provider": "Google",
-      "license": "Closed",
-      "score": 72.1
     }
   ]
 }
