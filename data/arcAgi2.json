@@ -6,12 +6,20 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-09-03T06:40:43Z",
-  "updated_at": "2026-09-02",
-  "total_models": 22,
+  "fetched_at": "2026-09-04T06:45:13Z",
+  "updated_at": "2026-09-03",
+  "total_models": 23,
   "top10": [
     {
       "rank": 1,
+      "model": "GPT-6 Astra",
+      "model_url": "/models/gpt-6-astra",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 95.0
+    },
+    {
+      "rank": 2,
       "model": "GPT-5.6 Sol",
       "model_url": "/models/gpt-5-6-sol",
       "provider": "OpenAI",
@@ -19,7 +27,7 @@
       "score": 92.5
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "Claude Opus 5",
       "model_url": "/models/claude-opus-5",
       "provider": "Anthropic",
@@ -27,7 +35,7 @@
       "score": 90.4
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "Claude Fable 5.1",
       "model_url": "/models/claude-fable-5-1",
       "provider": "Anthropic",
@@ -35,7 +43,7 @@
       "score": 90.0
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -43,7 +51,7 @@
       "score": 85.0
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "GPT-5.6 Terra",
       "model_url": "/models/gpt-5-6-terra",
       "provider": "OpenAI",
@@ -51,7 +59,7 @@
       "score": 83.9
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -59,7 +67,7 @@
       "score": 83.3
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "dots3-note Preview",
       "model_url": "/models/dots3-note-preview",
       "provider": "Dots Studio",
@@ -67,7 +75,7 @@
       "score": 81.4
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Gemini 3.1 Pro",
       "model_url": "/models/gemini-3-1-pro",
       "provider": "Google",
@@ -75,20 +83,12 @@
       "score": 77.08
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 75.8
-    },
-    {
-      "rank": 10,
-      "model": "GPT-5.4",
-      "model_url": "/models/gpt-5-4",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 73.95
     }
   ]
 }
