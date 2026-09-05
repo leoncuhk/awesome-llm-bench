@@ -6,9 +6,9 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-09-04T06:45:16Z",
-  "updated_at": "2026-09-03",
-  "total_models": 40,
+  "fetched_at": "2026-09-05T06:31:10Z",
+  "updated_at": "2026-09-04",
+  "total_models": 41,
   "top10": [
     {
       "rank": 1,
@@ -20,6 +20,14 @@
     },
     {
       "rank": 2,
+      "model": "GPT-6 Astra",
+      "model_url": "/models/gpt-6-astra",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 91.5
+    },
+    {
+      "rank": 3,
       "model": "Kimi K3",
       "model_url": "/models/kimi-k3",
       "provider": "Moonshot AI",
@@ -27,7 +35,7 @@
       "score": 91.2
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "Claude Opus 5",
       "model_url": "/models/claude-opus-5",
       "provider": "Anthropic",
@@ -35,7 +43,7 @@
       "score": 90.8
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-5.5 Pro",
       "model_url": "/models/gpt-5-5-pro",
       "provider": "OpenAI",
@@ -43,7 +51,7 @@
       "score": 90.1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -51,7 +59,7 @@
       "score": 89.3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Mythos 5",
       "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 88.0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-5.6 Terra",
       "model_url": "/models/gpt-5-6-terra",
       "provider": "OpenAI",
@@ -67,7 +75,7 @@
       "score": 87.5
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Ornith-1.5-397B",
       "model_url": "/models/ornith-1-5-397b",
       "provider": "Ornith AI",
@@ -75,20 +83,12 @@
       "score": 86.6
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
       "license": "Closed",
       "score": 84.7
-    },
-    {
-      "rank": 10,
-      "model": "GPT-5.5",
-      "model_url": "/models/gpt-5-5",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 84.4
     }
   ]
 }
