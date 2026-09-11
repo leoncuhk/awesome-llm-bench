@@ -6,9 +6,9 @@
   "blurb": "Contamination-free code generation, fresh problems sampled continuously.",
   "blurb_zh": "防污染代码生成,持续采样新题目。",
   "source_url": "https://benchlm.ai/benchmarks/liveCodeBench",
-  "fetched_at": "2026-09-09T06:53:51Z",
-  "updated_at": "2026-09-08",
-  "total_models": 7,
+  "fetched_at": "2026-09-11T06:50:08Z",
+  "updated_at": "2026-09-10",
+  "total_models": 8,
   "top10": [
     {
       "rank": 1,
@@ -28,6 +28,14 @@
     },
     {
       "rank": 3,
+      "model": "Solar Pro 4",
+      "model_url": "/models/solar-pro-4",
+      "provider": "Upstage",
+      "license": "Closed",
+      "score": 87.8
+    },
+    {
+      "rank": 4,
       "model": "GLM-4.7",
       "model_url": "/models/glm-4-7",
       "provider": "Z.AI",
@@ -35,7 +43,7 @@
       "score": 84.9
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "Qwen3.6-27B",
       "model_url": "/models/qwen3-6-27b",
       "provider": "Alibaba",
@@ -43,7 +51,7 @@
       "score": 83.9
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Qwen3.6-35B-A3B",
       "model_url": "/models/qwen3-6-35b-a3b",
       "provider": "Alibaba",
@@ -51,7 +59,7 @@
       "score": 80.4
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Mercury 2",
       "model_url": "/models/mercury-2",
       "provider": "Inception",
@@ -59,7 +67,7 @@
       "score": 67.3
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "DeepSeek V3",
       "model_url": "/models/deepseek-v3",
       "provider": "DeepSeek",
