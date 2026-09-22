@@ -6,9 +6,9 @@
   "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
   "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
   "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
-  "fetched_at": "2026-09-18T06:52:37Z",
-  "updated_at": "2026-09-18",
-  "total_models": 32,
+  "fetched_at": "2026-09-22T07:03:36Z",
+  "updated_at": "2026-09-21",
+  "total_models": 34,
   "top10": [
     {
       "rank": 1,
@@ -68,6 +68,14 @@
     },
     {
       "rank": 8,
+      "model": "MiMo-V2.6-Pro",
+      "model_url": "/models/mimo-v2-6-pro",
+      "provider": "Xiaomi",
+      "license": "Open",
+      "score": 82.0
+    },
+    {
+      "rank": 9,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
@@ -75,20 +83,12 @@
       "score": 81.2
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Muse Spark 1.1",
       "model_url": "/models/muse-spark-1-1",
       "provider": "Meta",
       "license": "Closed",
       "score": 80.8
-    },
-    {
-      "rank": 10,
-      "model": "Holo3-122B-A10B",
-      "model_url": "/models/holo3-122b-a10b",
-      "provider": "H Company",
-      "license": "Closed",
-      "score": 78.85
     }
   ]
 }

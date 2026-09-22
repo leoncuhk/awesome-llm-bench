@@ -6,9 +6,9 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-09-18T06:52:45Z",
-  "updated_at": "2026-09-18",
-  "total_models": 45,
+  "fetched_at": "2026-09-22T07:03:43Z",
+  "updated_at": "2026-09-21",
+  "total_models": 46,
   "top10": [
     {
       "rank": 1,
@@ -68,6 +68,14 @@
     },
     {
       "rank": 8,
+      "model": "Step 5 Preview",
+      "model_url": "/models/step-5-preview",
+      "provider": "StepFun",
+      "license": "Pending",
+      "score": 88.7
+    },
+    {
+      "rank": 9,
       "model": "Claude Mythos 5",
       "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
@@ -75,20 +83,12 @@
       "score": 88.0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.6 Terra",
       "model_url": "/models/gpt-5-6-terra",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 87.5
-    },
-    {
-      "rank": 10,
-      "model": "Ornith-1.5-397B",
-      "model_url": "/models/ornith-1-5-397b",
-      "provider": "Ornith AI",
-      "license": "Open",
-      "score": 86.6
     }
   ]
 }
