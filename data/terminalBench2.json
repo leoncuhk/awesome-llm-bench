@@ -6,68 +6,12 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-09-22T07:03:34Z",
-  "updated_at": "2026-09-21",
-  "total_models": 50,
+  "fetched_at": "2026-09-23T06:59:51Z",
+  "updated_at": "2026-09-22",
+  "total_models": 45,
   "top10": [
     {
       "rank": 1,
-      "model": "GPT-5.6 Sol",
-      "model_url": "/models/gpt-5-6-sol",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 91.9
-    },
-    {
-      "rank": 2,
-      "model": "Claude Mythos 5",
-      "model_url": "/models/claude-mythos-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 88.0
-    },
-    {
-      "rank": 3,
-      "model": "GPT-5.6 Terra",
-      "model_url": "/models/gpt-5-6-terra",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 87.4
-    },
-    {
-      "rank": 4,
-      "model": "GPT-5.6 Luna",
-      "model_url": "/models/gpt-5-6-luna",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 84.7
-    },
-    {
-      "rank": 5,
-      "model": "Claude Fable 5",
-      "model_url": "/models/claude-fable",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 84.3
-    },
-    {
-      "rank": 6,
-      "model": "Grok 4.5",
-      "model_url": "/models/grok-4-5",
-      "provider": "xAI",
-      "license": "Closed",
-      "score": 83.3
-    },
-    {
-      "rank": 7,
-      "model": "Sakana Fugu-Ultra",
-      "model_url": "/models/sakana-fugu-ultra",
-      "provider": "Sakana AI",
-      "license": "Closed",
-      "score": 82.1
-    },
-    {
-      "rank": 8,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
@@ -75,20 +19,76 @@
       "score": 82.0
     },
     {
-      "rank": 9,
-      "model": "SWE-1.7",
-      "model_url": "/models/swe-1-7",
-      "provider": "Cognition",
+      "rank": 2,
+      "model": "GPT-5.3 Codex",
+      "model_url": "/models/gpt-5-3-codex",
+      "provider": "OpenAI",
       "license": "Closed",
-      "score": 81.5
+      "score": 77.3
+    },
+    {
+      "rank": 3,
+      "model": "GPT-5.4",
+      "model_url": "/models/gpt-5-4",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 75.1
+    },
+    {
+      "rank": 4,
+      "model": "Qwen3.7 Plus",
+      "model_url": "/models/qwen3-7-plus",
+      "provider": "Alibaba",
+      "license": "Closed",
+      "score": 70.3
+    },
+    {
+      "rank": 5,
+      "model": "Qwen3.7 Max",
+      "model_url": "/models/qwen3-7-max",
+      "provider": "Alibaba",
+      "license": "Closed",
+      "score": 69.7
+    },
+    {
+      "rank": 6,
+      "model": "Claude Opus 4.7 (Adaptive)",
+      "model_url": "/models/claude-opus-4-7-adaptive",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 69.4
+    },
+    {
+      "rank": 7,
+      "model": "Composer 2.5",
+      "model_url": "/models/composer-2-5",
+      "provider": "Cursor",
+      "license": "Closed",
+      "score": 69.3
+    },
+    {
+      "rank": 8,
+      "model": "MiMo-V2.5-Pro",
+      "model_url": "/models/mimo-v2-5-pro",
+      "provider": "Xiaomi",
+      "license": "Closed",
+      "score": 68.4
+    },
+    {
+      "rank": 9,
+      "model": "DeepSeek V4 Pro 0813",
+      "model_url": "/models/deepseek-v4-pro-0813",
+      "provider": "DeepSeek",
+      "license": "Closed",
+      "score": 67.9
     },
     {
       "rank": 10,
-      "model": "GLM-5.2",
-      "model_url": "/models/glm-5-2",
-      "provider": "Z.AI",
+      "model": "Kimi K2.6",
+      "model_url": "/models/kimi-2-6",
+      "provider": "Moonshot AI",
       "license": "Open",
-      "score": 81.0
+      "score": 66.7
     }
   ]
 }
