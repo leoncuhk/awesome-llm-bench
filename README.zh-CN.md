@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![English](https://img.shields.io/badge/lang-English-000.svg)](README.md)
 
-<!-- LAST_SYNC -->最近同步: **2026-09-25** (UTC,每日自动更新)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->最近同步: **2026-09-26** (UTC,每日自动更新)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -102,7 +102,7 @@ LLM 评测领域噪音极大: LMArena 测的是用户偏好而非能力,厂商�
 | 6 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 69.4% |
 | 7 | [Composer 2.5](https://benchlm.ai/models/composer-2-5) | Cursor | Closed | 69.3% |
 | 8 | [MiMo-V2.5-Pro](https://benchlm.ai/models/mimo-v2-5-pro) | Xiaomi | Closed | 68.4% |
-| 9 | [DeepSeek V4 Pro 0813](https://benchlm.ai/models/deepseek-v4-pro-0813) | DeepSeek | Closed | 67.9% |
+| 9 | [DeepSeek V4 Pro 0813](https://benchlm.ai/models/deepseek-v4-pro-0813) | DeepSeek | Open | 67.9% |
 | 10 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 66.7% |
 
 *来源: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · 更新于 2026-09-24 · 共 45 个模型*

@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-09-25** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-09-26** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -102,7 +102,7 @@ Multi-step terminal and CLI workflows. Models inspect files, run commands, edit 
 | 6 | [Claude Opus 4.7 (Adaptive)](https://benchlm.ai/models/claude-opus-4-7-adaptive) | Anthropic | Closed | 69.4% |
 | 7 | [Composer 2.5](https://benchlm.ai/models/composer-2-5) | Cursor | Closed | 69.3% |
 | 8 | [MiMo-V2.5-Pro](https://benchlm.ai/models/mimo-v2-5-pro) | Xiaomi | Closed | 68.4% |
-| 9 | [DeepSeek V4 Pro 0813](https://benchlm.ai/models/deepseek-v4-pro-0813) | DeepSeek | Closed | 67.9% |
+| 9 | [DeepSeek V4 Pro 0813](https://benchlm.ai/models/deepseek-v4-pro-0813) | DeepSeek | Open | 67.9% |
 | 10 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 66.7% |
 
 *Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-09-24 · Total models: 45*

@@ -6,7 +6,7 @@
   "blurb": "Multi-step terminal/CLI workflows — inspect, run, edit, recover from errors.",
   "blurb_zh": "多步终端/CLI 工作流 —— 检查、执行、编辑、错误恢复。",
   "source_url": "https://benchlm.ai/benchmarks/terminalBench2",
-  "fetched_at": "2026-09-25T06:51:29Z",
+  "fetched_at": "2026-09-26T06:52:33Z",
   "updated_at": "2026-09-24",
   "total_models": 45,
   "top10": [
@@ -79,7 +79,7 @@
       "model": "DeepSeek V4 Pro 0813",
       "model_url": "/models/deepseek-v4-pro-0813",
       "provider": "DeepSeek",
-      "license": "Closed",
+      "license": "Open",
       "score": 67.9
     },
     {
