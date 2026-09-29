@@ -6,9 +6,9 @@
   "blurb": "Real GitHub issues in popular Python repos. The gold standard for AI coding agents.",
   "blurb_zh": "真实 GitHub issue 修复任务,AI 编码 agent 的黄金标准。",
   "source_url": "https://benchlm.ai/benchmarks/sweVerified",
-  "fetched_at": "2026-09-28T07:59:16Z",
-  "updated_at": "2026-09-27",
-  "total_models": 79,
+  "fetched_at": "2026-09-29T07:40:38Z",
+  "updated_at": "2026-09-28",
+  "total_models": 80,
   "top10": [
     {
       "rank": 1,
@@ -36,6 +36,14 @@
     },
     {
       "rank": 4,
+      "model": "Ember-1",
+      "model_url": "/models/ember-1",
+      "provider": "Fireworks",
+      "license": "Closed",
+      "score": 92.2
+    },
+    {
+      "rank": 5,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
@@ -43,7 +51,7 @@
       "score": 88.6
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Opus 4.7 (Adaptive)",
       "model_url": "/models/claude-opus-4-7-adaptive",
       "provider": "Anthropic",
@@ -51,7 +59,7 @@
       "score": 87.6
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Ornith-1.5-397B",
       "model_url": "/models/ornith-1-5-397b",
       "provider": "Ornith AI",
@@ -59,7 +67,7 @@
       "score": 86.0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
@@ -67,7 +75,7 @@
       "score": 85.2
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GPT-5.3 Codex",
       "model_url": "/models/gpt-5-3-codex",
       "provider": "OpenAI",
@@ -75,20 +83,12 @@
       "score": 85.0
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Ornith-1.0-397B",
       "model_url": "/models/ornith-1-0-397b",
       "provider": "DeepReinforce AI",
       "license": "Open",
       "score": 82.4
-    },
-    {
-      "rank": 10,
-      "model": "Claude Opus 4.5",
-      "model_url": "/models/claude-opus-4-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 80.9
     }
   ]
 }
