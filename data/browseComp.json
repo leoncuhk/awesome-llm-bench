@@ -6,8 +6,8 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-09-30T07:43:04Z",
-  "updated_at": "2026-09-29",
+  "fetched_at": "2026-10-01T08:02:24Z",
+  "updated_at": "2026-09-30",
   "total_models": 46,
   "top10": [
     {

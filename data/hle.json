@@ -6,8 +6,8 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-09-30T07:43:02Z",
-  "updated_at": "2026-09-29",
+  "fetched_at": "2026-10-01T08:02:23Z",
+  "updated_at": "2026-09-30",
   "total_models": 63,
   "top10": [
     {
