@@ -6,9 +6,9 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-10-03T07:19:15Z",
-  "updated_at": "2026-10-02",
-  "total_models": 36,
+  "fetched_at": "2026-10-06T08:19:18Z",
+  "updated_at": "2026-10-05",
+  "total_models": 42,
   "top10": [
     {
       "rank": 1,
@@ -20,6 +20,14 @@
     },
     {
       "rank": 2,
+      "model": "GPT-6.1 Sol",
+      "model_url": "/models/gpt-6-1-sol",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 94.17
+    },
+    {
+      "rank": 3,
       "model": "GPT-5.6 Sol",
       "model_url": "/models/gpt-5-6-sol",
       "provider": "OpenAI",
@@ -27,7 +35,7 @@
       "score": 92.5
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "Claude Opus 5.5",
       "model_url": "/models/claude-opus-5-5",
       "provider": "Anthropic",
@@ -35,7 +43,7 @@
       "score": 91.7
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "Claude Opus 5",
       "model_url": "/models/claude-opus-5",
       "provider": "Anthropic",
@@ -43,7 +51,7 @@
       "score": 90.4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Fable 5.1",
       "model_url": "/models/claude-fable-5-1",
       "provider": "Anthropic",
@@ -51,7 +59,15 @@
       "score": 90.0
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "model": "GPT-6 Sol",
+      "model_url": "/models/gpt-6-sol",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 89.58
+    },
+    {
+      "rank": 8,
       "model": "Claude Fable 5",
       "model_url": "/models/claude-fable",
       "provider": "Anthropic",
@@ -59,7 +75,7 @@
       "score": 89.2
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "Gemini 3.8 Flash",
       "model_url": "/models/gemini-3-8-flash",
       "provider": "Google",
@@ -67,28 +83,12 @@
       "score": 89.2
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "GPT-5.5",
       "model_url": "/models/gpt-5-5",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 85.0
-    },
-    {
-      "rank": 9,
-      "model": "Gemini 3.7 Flash",
-      "model_url": "/models/gemini-3-7-flash",
-      "provider": "Google",
-      "license": "Closed",
-      "score": 84.6
-    },
-    {
-      "rank": 10,
-      "model": "GPT-5.5 Pro",
-      "model_url": "/models/gpt-5-5-pro",
-      "provider": "OpenAI",
-      "license": "Closed",
-      "score": 84.2
     }
   ]
 }
