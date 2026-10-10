@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-10-09** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-10-10** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -59,7 +59,7 @@ Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn
 | 9 | [GPT-5.3 Codex](https://benchlm.ai/models/gpt-5-3-codex) | OpenAI | Closed | 85.0% |
 | 10 | [Ornith-1.0-397B](https://benchlm.ai/models/ornith-1-0-397b) | DeepReinforce AI | Open | 82.4% |
 
-*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-10-08 · Total models: 82*
+*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-10-10 · Total models: 94*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
@@ -69,16 +69,17 @@ Contamination-free code generation. Fresh problems are sampled continuously, mit
 <!-- AUTO:START slug=liveCodeBench lang=en -->
 | Rank | Model | Provider | License | Score |
 | :-: | :-- | :-- | :-: | --: |
-| 1 | [Qwen3.7 Max](https://benchlm.ai/models/qwen3-7-max) | Alibaba | Closed | 91.6% |
-| 2 | [Qwen3.7 Plus](https://benchlm.ai/models/qwen3-7-plus) | Alibaba | Closed | 89.6% |
-| 3 | [Solar Pro 4](https://benchlm.ai/models/solar-pro-4) | Upstage | Closed | 87.8% |
-| 4 | [GLM-4.7](https://benchlm.ai/models/glm-4-7) | Z.AI | Open | 84.9% |
-| 5 | [Qwen3.6-27B](https://benchlm.ai/models/qwen3-6-27b) | Alibaba | Open | 83.9% |
-| 6 | [Qwen3.6-35B-A3B](https://benchlm.ai/models/qwen3-6-35b-a3b) | Alibaba | Open | 80.4% |
-| 7 | [Mercury 2](https://benchlm.ai/models/mercury-2) | Inception | Closed | 67.3% |
-| 8 | [DeepSeek V3](https://benchlm.ai/models/deepseek-v3) | DeepSeek | Open | 37.6% |
+| 1 | [Solar Pro 4](https://benchlm.ai/models/solar-pro-4) | Upstage | Closed | 87.8% |
+| 2 | [DeepSeek V3.1 (Reasoning)](https://benchlm.ai/models/deepseek-v3-1-reasoning) | DeepSeek | Open | 74.8% |
+| 3 | [Grok 3 Mini](https://benchlm.ai/models/grok-3-mini) | xAI | Closed | 74.8% |
+| 4 | [Mercury 2](https://benchlm.ai/models/mercury-2) | Inception | Closed | 67.3% |
+| 5 | [Nemotron Ultra 253B](https://benchlm.ai/models/nemotron-ultra-253b) | NVIDIA | Open | 66.3% |
+| 6 | [MiniMax M1 80k](https://benchlm.ai/models/minimax-m1-80k) | MiniMax | Closed | 65.0% |
+| 7 | [Grok 3 [Beta]](https://benchlm.ai/models/grok-3-beta) | xAI | Closed | 57.0% |
+| 8 | [DeepSeek V3.1](https://benchlm.ai/models/deepseek-v3-1) | DeepSeek | Open | 56.4% |
+| 9 | [DeepSeek V3](https://benchlm.ai/models/deepseek-v3) | DeepSeek | Open | 37.6% |
 
-*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-10-08 · Total models: 8*
+*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-10-10 · Total models: 9*
 <!-- AUTO:END slug=liveCodeBench -->
 
 <br>
@@ -105,7 +106,7 @@ Multi-step terminal and CLI workflows. Models inspect files, run commands, edit 
 | 9 | [DeepSeek V4 Pro 0813](https://benchlm.ai/models/deepseek-v4-pro-0813) | DeepSeek | Open | 67.9% |
 | 10 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 66.7% |
 
-*Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-10-08 · Total models: 45*
+*Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-10-10 · Total models: 45*
 <!-- AUTO:END slug=terminalBench2 -->
 
 ### OSWorld-Verified
@@ -126,7 +127,7 @@ Computer-use tasks in desktop GUIs. Navigation, editing, and complex multi-step 
 | 9 | [Claude Sonnet 5](https://benchlm.ai/models/claude-sonnet-5) | Anthropic | Closed | 81.2% |
 | 10 | [Muse Spark 1.1](https://benchlm.ai/models/muse-spark-1-1) | Meta | Closed | 80.8% |
 
-*Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-10-08 · Total models: 34*
+*Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-10-10 · Total models: 37*
 <!-- AUTO:END slug=osWorldVerified -->
 
 ### BrowseComp
@@ -147,7 +148,7 @@ Web-research agents. Models search, inspect sources, gather evidence, and return
 | 9 | [Claude Mythos 5](https://benchlm.ai/models/claude-mythos-5) | Anthropic | Closed | 88.0% |
 | 10 | [GPT-5.6 Terra](https://benchlm.ai/models/gpt-5-6-terra) | OpenAI | Closed | 87.5% |
 
-*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-10-08 · Total models: 47*
+*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-10-10 · Total models: 50*
 <!-- AUTO:END slug=browseComp -->
 
 <br>
@@ -174,7 +175,7 @@ Abstraction and reasoning grid puzzles. A frontier general-intelligence test whe
 | 9 | [Gemini 3.8 Flash](https://benchlm.ai/models/gemini-3-8-flash) | Google | Closed | 89.2% |
 | 10 | [GPT-5.5](https://benchlm.ai/models/gpt-5-5) | OpenAI | Closed | 85.0% |
 
-*Source: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · Updated 2026-10-08 · Total models: 42*
+*Source: [https://benchlm.ai/benchmarks/arcAgi2](https://benchlm.ai/benchmarks/arcAgi2) · Updated 2026-10-10 · Total models: 42*
 <!-- AUTO:END slug=arcAgi2 -->
 
 <br>
@@ -201,7 +202,7 @@ Expert-level questions across all academic domains. Designed to be hard for fron
 | 9 | [Apodex 1.1](https://benchlm.ai/models/apodex-1-1) | Apodex | Closed | 56.1% |
 | 10 | [Kimi K3](https://benchlm.ai/models/kimi-k3) | Moonshot AI | Pending | 56.0% |
 
-*Source: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · Updated 2026-10-08 · Total models: 63*
+*Source: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · Updated 2026-10-10 · Total models: 71*
 <!-- AUTO:END slug=hle -->
 
 <br>

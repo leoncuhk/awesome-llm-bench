@@ -6,28 +6,12 @@
   "blurb": "Contamination-free code generation, fresh problems sampled continuously.",
   "blurb_zh": "防污染代码生成,持续采样新题目。",
   "source_url": "https://benchlm.ai/benchmarks/liveCodeBench",
-  "fetched_at": "2026-10-09T08:11:13Z",
-  "updated_at": "2026-10-08",
-  "total_models": 8,
+  "fetched_at": "2026-10-10T07:54:48Z",
+  "updated_at": "2026-10-10",
+  "total_models": 9,
   "top10": [
     {
       "rank": 1,
-      "model": "Qwen3.7 Max",
-      "model_url": "/models/qwen3-7-max",
-      "provider": "Alibaba",
-      "license": "Closed",
-      "score": 91.6
-    },
-    {
-      "rank": 2,
-      "model": "Qwen3.7 Plus",
-      "model_url": "/models/qwen3-7-plus",
-      "provider": "Alibaba",
-      "license": "Closed",
-      "score": 89.6
-    },
-    {
-      "rank": 3,
       "model": "Solar Pro 4",
       "model_url": "/models/solar-pro-4",
       "provider": "Upstage",
@@ -35,31 +19,23 @@
       "score": 87.8
     },
     {
+      "rank": 2,
+      "model": "DeepSeek V3.1 (Reasoning)",
+      "model_url": "/models/deepseek-v3-1-reasoning",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 74.8
+    },
+    {
+      "rank": 3,
+      "model": "Grok 3 Mini",
+      "model_url": "/models/grok-3-mini",
+      "provider": "xAI",
+      "license": "Closed",
+      "score": 74.8
+    },
+    {
       "rank": 4,
-      "model": "GLM-4.7",
-      "model_url": "/models/glm-4-7",
-      "provider": "Z.AI",
-      "license": "Open",
-      "score": 84.9
-    },
-    {
-      "rank": 5,
-      "model": "Qwen3.6-27B",
-      "model_url": "/models/qwen3-6-27b",
-      "provider": "Alibaba",
-      "license": "Open",
-      "score": 83.9
-    },
-    {
-      "rank": 6,
-      "model": "Qwen3.6-35B-A3B",
-      "model_url": "/models/qwen3-6-35b-a3b",
-      "provider": "Alibaba",
-      "license": "Open",
-      "score": 80.4
-    },
-    {
-      "rank": 7,
       "model": "Mercury 2",
       "model_url": "/models/mercury-2",
       "provider": "Inception",
@@ -67,7 +43,39 @@
       "score": 67.3
     },
     {
+      "rank": 5,
+      "model": "Nemotron Ultra 253B",
+      "model_url": "/models/nemotron-ultra-253b",
+      "provider": "NVIDIA",
+      "license": "Open",
+      "score": 66.31
+    },
+    {
+      "rank": 6,
+      "model": "MiniMax M1 80k",
+      "model_url": "/models/minimax-m1-80k",
+      "provider": "MiniMax",
+      "license": "Closed",
+      "score": 65.0
+    },
+    {
+      "rank": 7,
+      "model": "Grok 3 [Beta]",
+      "model_url": "/models/grok-3-beta",
+      "provider": "xAI",
+      "license": "Closed",
+      "score": 57.0
+    },
+    {
       "rank": 8,
+      "model": "DeepSeek V3.1",
+      "model_url": "/models/deepseek-v3-1",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 56.4
+    },
+    {
+      "rank": 9,
       "model": "DeepSeek V3",
       "model_url": "/models/deepseek-v3",
       "provider": "DeepSeek",
