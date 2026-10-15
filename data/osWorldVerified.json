@@ -6,8 +6,8 @@
   "blurb": "Computer-use tasks in desktop GUIs — navigation, editing, workflow completion.",
   "blurb_zh": "桌面 GUI 计算机使用任务 —— 导航、编辑、流程完成。",
   "source_url": "https://benchlm.ai/benchmarks/osWorldVerified",
-  "fetched_at": "2026-10-14T06:54:26Z",
-  "updated_at": "2026-10-13",
+  "fetched_at": "2026-10-15T06:43:55Z",
+  "updated_at": "2026-10-14",
   "total_models": 37,
   "top10": [
     {

@@ -6,9 +6,9 @@
   "blurb": "Contamination-free code generation, fresh problems sampled continuously.",
   "blurb_zh": "防污染代码生成,持续采样新题目。",
   "source_url": "https://benchlm.ai/benchmarks/liveCodeBench",
-  "fetched_at": "2026-10-14T06:54:27Z",
-  "updated_at": "2026-10-13",
-  "total_models": 9,
+  "fetched_at": "2026-10-15T06:43:57Z",
+  "updated_at": "2026-10-14",
+  "total_models": 13,
   "top10": [
     {
       "rank": 1,
@@ -36,6 +36,14 @@
     },
     {
       "rank": 4,
+      "model": "DeepSeek-R1-0528",
+      "model_url": "/models/deepseek-r1-0528",
+      "provider": "DeepSeek",
+      "license": "Open",
+      "score": 73.3
+    },
+    {
+      "rank": 5,
       "model": "Mercury 2",
       "model_url": "/models/mercury-2",
       "provider": "Inception",
@@ -43,7 +51,7 @@
       "score": 67.3
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Nemotron Ultra 253B",
       "model_url": "/models/nemotron-ultra-253b",
       "provider": "NVIDIA",
@@ -51,7 +59,7 @@
       "score": 66.31
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "MiniMax M1 80k",
       "model_url": "/models/minimax-m1-80k",
       "provider": "MiniMax",
@@ -59,7 +67,7 @@
       "score": 65.0
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Grok 3 [Beta]",
       "model_url": "/models/grok-3-beta",
       "provider": "xAI",
@@ -67,7 +75,7 @@
       "score": 57.0
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "DeepSeek V3.1",
       "model_url": "/models/deepseek-v3-1",
       "provider": "DeepSeek",
@@ -75,12 +83,12 @@
       "score": 56.4
     },
     {
-      "rank": 9,
-      "model": "DeepSeek V3",
-      "model_url": "/models/deepseek-v3",
-      "provider": "DeepSeek",
+      "rank": 10,
+      "model": "Phi-4-reasoning",
+      "model_url": "/models/phi-4-reasoning",
+      "provider": "Microsoft",
       "license": "Open",
-      "score": 37.6
+      "score": 53.8
     }
   ]
 }
