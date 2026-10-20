@@ -6,13 +6,13 @@
   "blurb": "Abstraction and reasoning grid puzzles — frontier general intelligence test.",
   "blurb_zh": "抽象推理网格谜题 —— 前沿通用智能测试。",
   "source_url": "https://benchlm.ai/benchmarks/arcAgi2",
-  "fetched_at": "2026-10-18T06:48:33Z",
-  "updated_at": "2026-10-17",
-  "total_models": 42,
+  "fetched_at": "2026-10-20T06:52:14Z",
+  "updated_at": "Captured 2026-10-19",
+  "total_models": 275,
   "top10": [
     {
       "rank": 1,
-      "model": "GPT-6 Astra",
+      "model": "GPT-6 Astra (Max)",
       "model_url": "/models/gpt-6-astra",
       "provider": "OpenAI",
       "license": "Closed",
@@ -20,75 +20,75 @@
     },
     {
       "rank": 2,
-      "model": "GPT-6.1 Sol",
+      "model": "GPT-6.1 Sol (Max)",
       "model_url": "/models/gpt-6-1-sol",
       "provider": "OpenAI",
       "license": "Closed",
-      "score": 94.17
+      "score": 94.166667
     },
     {
       "rank": 3,
-      "model": "GPT-5.6 Sol",
+      "model": "Claude Opus 5.5 (High)",
+      "model_url": "/models/claude-opus-5-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 93.333333
+    },
+    {
+      "rank": 4,
+      "model": "GPT-6 Astra (XHigh)",
+      "model_url": "/models/gpt-6-astra",
+      "provider": "OpenAI",
+      "license": "Closed",
+      "score": 93.333333
+    },
+    {
+      "rank": 5,
+      "model": "Claude Opus 5.5 (XHigh)",
+      "model_url": "/models/claude-opus-5-5",
+      "provider": "Anthropic",
+      "license": "Closed",
+      "score": 92.5
+    },
+    {
+      "rank": 6,
+      "model": "GPT-5.6 Sol (Max)",
       "model_url": "/models/gpt-5-6-sol",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 92.5
     },
     {
-      "rank": 4,
-      "model": "Claude Opus 5.5",
-      "model_url": "/models/claude-opus-5-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 91.7
-    },
-    {
-      "rank": 5,
-      "model": "Claude Opus 5",
-      "model_url": "/models/claude-opus-5",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 90.4
-    },
-    {
-      "rank": 6,
-      "model": "Claude Fable 5.1",
-      "model_url": "/models/claude-fable-5-1",
-      "provider": "Anthropic",
-      "license": "Closed",
-      "score": 90.0
-    },
-    {
       "rank": 7,
-      "model": "GPT-6 Sol",
-      "model_url": "/models/gpt-6-sol",
+      "model": "GPT-6 Astra (High)",
+      "model_url": "/models/gpt-6-astra",
       "provider": "OpenAI",
       "license": "Closed",
-      "score": 89.58
+      "score": 92.083333
     },
     {
       "rank": 8,
-      "model": "Claude Fable 5",
-      "model_url": "/models/claude-fable",
-      "provider": "Anthropic",
+      "model": "GPT-6 Astra (Medium)",
+      "model_url": "/models/gpt-6-astra",
+      "provider": "OpenAI",
       "license": "Closed",
-      "score": 89.2
+      "score": 92.083333
     },
     {
       "rank": 9,
-      "model": "Gemini 3.8 Flash",
-      "model_url": "/models/gemini-3-8-flash",
-      "provider": "Google",
+      "model": "Claude Opus 5.5 (Max)",
+      "model_url": "/models/claude-opus-5-5",
+      "provider": "Anthropic",
       "license": "Closed",
-      "score": 89.2
+      "score": 91.666667
     },
     {
       "rank": 10,
-      "model": "GPT-5.5",
-      "model_url": "/models/gpt-5-5",
+      "model": "GPT-6.1 Sol (High)",
+      "model_url": "/models/gpt-6-1-sol",
       "provider": "OpenAI",
       "license": "Closed",
-      "score": 85.0
+      "score": 91.666667
     }
   ]
 }
