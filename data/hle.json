@@ -6,12 +6,20 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-10-21T06:48:44Z",
-  "updated_at": "2026-10-20",
-  "total_models": 76,
+  "fetched_at": "2026-10-24T06:40:45Z",
+  "updated_at": "2026-10-23",
+  "total_models": 77,
   "top10": [
     {
       "rank": 1,
+      "model": "Kimi K3.1 Pro",
+      "model_url": "/models/kimi-3-1-pro",
+      "provider": "Moonshot AI",
+      "license": "Pending",
+      "score": 70.0
+    },
+    {
+      "rank": 2,
       "model": "Claude Fable 5.1",
       "model_url": "/models/claude-fable-5-1",
       "provider": "Anthropic",
@@ -19,7 +27,7 @@
       "score": 65.0
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "Claude Opus 5",
       "model_url": "/models/claude-opus-5",
       "provider": "Anthropic",
@@ -27,7 +35,7 @@
       "score": 64.7
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "Claude Mythos 5",
       "model_url": "/models/claude-mythos-5",
       "provider": "Anthropic",
@@ -35,7 +43,7 @@
       "score": 64.5
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "Muse Spark 1.1",
       "model_url": "/models/muse-spark-1-1",
       "provider": "Meta",
@@ -43,7 +51,7 @@
       "score": 62.1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -51,7 +59,7 @@
       "score": 58.7
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
@@ -59,7 +67,7 @@
       "score": 57.9
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
@@ -67,7 +75,7 @@
       "score": 57.4
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GPT-5.5 Pro",
       "model_url": "/models/gpt-5-5-pro",
       "provider": "OpenAI",
@@ -75,20 +83,12 @@
       "score": 57.2
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Apodex 1.1",
       "model_url": "/models/apodex-1-1",
       "provider": "Apodex",
       "license": "Closed",
       "score": 56.1
-    },
-    {
-      "rank": 10,
-      "model": "Kimi K3",
-      "model_url": "/models/kimi-k3",
-      "provider": "Moonshot AI",
-      "license": "Pending",
-      "score": 56.0
     }
   ]
 }
