@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![English](https://img.shields.io/badge/lang-English-000.svg)](README.md)
 
-<!-- LAST_SYNC -->最近同步: **2026-10-29** (UTC,每日自动更新)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->最近同步: **2026-10-30** (UTC,每日自动更新)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -143,13 +143,13 @@ Web 研究 agent。模型需要搜索、查证、收集证据,并对研究型问
 | 3 | [Kimi K3.1 Pro](https://benchlm.ai/models/kimi-3-1-pro) | Moonshot AI | Pending | 92.1% |
 | 4 | [Ling 3.1 Flash](https://benchlm.ai/models/ling-3-1-flash) | InclusionAI | Open | 91.7% |
 | 5 | [GPT-6 Astra](https://benchlm.ai/models/gpt-6-astra) | OpenAI | Closed | 91.5% |
-| 6 | [Kimi K3](https://benchlm.ai/models/kimi-k3) | Moonshot AI | Pending | 91.2% |
+| 6 | [Kimi K3](https://benchlm.ai/models/kimi-k3) | Moonshot AI | Open | 91.2% |
 | 7 | [Claude Opus 5](https://benchlm.ai/models/claude-opus-5) | Anthropic | Closed | 90.8% |
 | 8 | [GPT-5.5 Pro](https://benchlm.ai/models/gpt-5-5-pro) | OpenAI | Closed | 90.1% |
 | 9 | [GPT-5.4 Pro](https://benchlm.ai/models/gpt-5-4-pro) | OpenAI | Closed | 89.3% |
 | 10 | [Step 5 Preview](https://benchlm.ai/models/step-5-preview) | StepFun | Open | 88.7% |
 
-*来源: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · 更新于 2026-10-29 · 共 61 个模型*
+*来源: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · 更新于 2026-10-29 · 共 62 个模型*
 <!-- AUTO:END slug=browseComp -->
 
 <br>

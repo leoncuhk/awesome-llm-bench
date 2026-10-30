@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-10-29** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-10-30** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -143,13 +143,13 @@ Web-research agents. Models search, inspect sources, gather evidence, and return
 | 3 | [Kimi K3.1 Pro](https://benchlm.ai/models/kimi-3-1-pro) | Moonshot AI | Pending | 92.1% |
 | 4 | [Ling 3.1 Flash](https://benchlm.ai/models/ling-3-1-flash) | InclusionAI | Open | 91.7% |
 | 5 | [GPT-6 Astra](https://benchlm.ai/models/gpt-6-astra) | OpenAI | Closed | 91.5% |
-| 6 | [Kimi K3](https://benchlm.ai/models/kimi-k3) | Moonshot AI | Pending | 91.2% |
+| 6 | [Kimi K3](https://benchlm.ai/models/kimi-k3) | Moonshot AI | Open | 91.2% |
 | 7 | [Claude Opus 5](https://benchlm.ai/models/claude-opus-5) | Anthropic | Closed | 90.8% |
 | 8 | [GPT-5.5 Pro](https://benchlm.ai/models/gpt-5-5-pro) | OpenAI | Closed | 90.1% |
 | 9 | [GPT-5.4 Pro](https://benchlm.ai/models/gpt-5-4-pro) | OpenAI | Closed | 89.3% |
 | 10 | [Step 5 Preview](https://benchlm.ai/models/step-5-preview) | StepFun | Open | 88.7% |
 
-*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-10-29 · Total models: 61*
+*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-10-29 · Total models: 62*
 <!-- AUTO:END slug=browseComp -->
 
 <br>

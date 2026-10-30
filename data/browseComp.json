@@ -6,9 +6,9 @@
   "blurb": "Web-research agents — search, inspect sources, return correct answers.",
   "blurb_zh": "Web 研究 agent —— 搜索、查证、返回准确答案。",
   "source_url": "https://benchlm.ai/benchmarks/browseComp",
-  "fetched_at": "2026-10-29T07:49:45Z",
+  "fetched_at": "2026-10-30T07:54:13Z",
   "updated_at": "2026-10-29",
-  "total_models": 61,
+  "total_models": 62,
   "top10": [
     {
       "rank": 1,
@@ -55,7 +55,7 @@
       "model": "Kimi K3",
       "model_url": "/models/kimi-k3",
       "provider": "Moonshot AI",
-      "license": "Pending",
+      "license": "Open",
       "score": 91.2
     },
     {
