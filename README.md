@@ -289,6 +289,7 @@ PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Add a benchmark by editi
 - [Awesome Quant AI](https://github.com/leoncuhk/awesome-quant-ai) — sister list
 - [Artificial Analysis](https://artificialanalysis.ai/) — alternative aggregator (price/perf focus)
 - [LMArena](https://lmarena.ai/) — pairwise human preference
+- - [VibeCoderJournal](https://vibecoderjournal.com/rankings/) — benchmark index and pricing breakdown for frontier LLMs
 
 ## License
 
