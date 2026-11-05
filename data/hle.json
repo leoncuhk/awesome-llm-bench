@@ -6,16 +6,16 @@
   "blurb": "Expert-level questions across all academic domains, designed to be hard.",
   "blurb_zh": "跨学科专家级难题,被设计为前沿模型也难以攻克。",
   "source_url": "https://benchlm.ai/benchmarks/hle",
-  "fetched_at": "2026-10-29T07:49:43Z",
-  "updated_at": "2026-10-29",
-  "total_models": 78,
+  "fetched_at": "2026-11-05T08:44:44Z",
+  "updated_at": "2026-11-04",
+  "total_models": 79,
   "top10": [
     {
       "rank": 1,
       "model": "Kimi K3.1 Pro",
       "model_url": "/models/kimi-3-1-pro",
       "provider": "Moonshot AI",
-      "license": "Pending",
+      "license": "Open",
       "score": 70.0
     },
     {
@@ -52,6 +52,14 @@
     },
     {
       "rank": 6,
+      "model": "Hy4",
+      "model_url": "/models/hy4",
+      "provider": "Tencent",
+      "license": "Pending",
+      "score": 59.1
+    },
+    {
+      "rank": 7,
       "model": "GPT-5.4 Pro",
       "model_url": "/models/gpt-5-4-pro",
       "provider": "OpenAI",
@@ -59,7 +67,7 @@
       "score": 58.7
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Opus 4.8",
       "model_url": "/models/claude-opus-4-8",
       "provider": "Anthropic",
@@ -67,7 +75,7 @@
       "score": 57.9
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Claude Sonnet 5",
       "model_url": "/models/claude-sonnet-5",
       "provider": "Anthropic",
@@ -75,20 +83,12 @@
       "score": 57.4
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.5 Pro",
       "model_url": "/models/gpt-5-5-pro",
       "provider": "OpenAI",
       "license": "Closed",
       "score": 57.2
-    },
-    {
-      "rank": 10,
-      "model": "Apodex 1.1",
-      "model_url": "/models/apodex-1-1",
-      "provider": "Apodex",
-      "license": "Closed",
-      "score": 56.1
     }
   ]
 }

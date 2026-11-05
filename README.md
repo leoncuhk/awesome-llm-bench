@@ -8,7 +8,7 @@ Top 10 of the most reliable LLM leaderboards, auto-synced daily.
 [![License](https://img.shields.io/badge/license-MIT-000.svg)](LICENSE)
 [![中文](https://img.shields.io/badge/lang-中文-000.svg)](README.zh-CN.md)
 
-<!-- LAST_SYNC -->Last sync: **2026-10-30** (UTC, daily auto-update)<!-- /LAST_SYNC -->
+<!-- LAST_SYNC -->Last sync: **2026-11-05** (UTC, daily auto-update)<!-- /LAST_SYNC -->
 
 </div>
 
@@ -59,7 +59,7 @@ Real GitHub issues from popular Python repositories (Django, Flask, scikit-learn
 | 9 | [GPT-5.3 Codex](https://benchlm.ai/models/gpt-5-3-codex) | OpenAI | Closed | 85.0% |
 | 10 | [Ornith-1.0-397B](https://benchlm.ai/models/ornith-1-0-397b) | DeepReinforce AI | Open | 82.4% |
 
-*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-10-29 · Total models: 116*
+*Source: [https://benchlm.ai/benchmarks/sweVerified](https://benchlm.ai/benchmarks/sweVerified) · Updated 2026-11-04 · Total models: 117*
 <!-- AUTO:END slug=sweVerified -->
 
 ### LiveCodeBench
@@ -80,7 +80,7 @@ Contamination-free code generation. Fresh problems are sampled continuously, mit
 | 9 | [DeepSeek V3.1](https://benchlm.ai/models/deepseek-v3-1) | DeepSeek | Open | 56.4% |
 | 10 | [Phi-4-reasoning](https://benchlm.ai/models/phi-4-reasoning) | Microsoft | Open | 53.8% |
 
-*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-10-29 · Total models: 13*
+*Source: [https://benchlm.ai/benchmarks/liveCodeBench](https://benchlm.ai/benchmarks/liveCodeBench) · Updated 2026-11-04 · Total models: 13*
 <!-- AUTO:END slug=liveCodeBench -->
 
 <br>
@@ -107,7 +107,7 @@ Multi-step terminal and CLI workflows. Models inspect files, run commands, edit 
 | 9 | [DeepSeek V4 Pro 0813](https://benchlm.ai/models/deepseek-v4-pro-0813) | DeepSeek | Open | 67.9% |
 | 10 | [Kimi K2.6](https://benchlm.ai/models/kimi-2-6) | Moonshot AI | Open | 66.7% |
 
-*Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-10-29 · Total models: 45*
+*Source: [https://benchlm.ai/benchmarks/terminalBench2](https://benchlm.ai/benchmarks/terminalBench2) · Updated 2026-11-04 · Total models: 45*
 <!-- AUTO:END slug=terminalBench2 -->
 
 ### OSWorld-Verified
@@ -128,7 +128,7 @@ Computer-use tasks in desktop GUIs. Navigation, editing, and complex multi-step 
 | 9 | [Claude Sonnet 5](https://benchlm.ai/models/claude-sonnet-5) | Anthropic | Closed | 81.2% |
 | 10 | [Muse Spark 1.1](https://benchlm.ai/models/muse-spark-1-1) | Meta | Closed | 80.8% |
 
-*Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-10-29 · Total models: 37*
+*Source: [https://benchlm.ai/benchmarks/osWorldVerified](https://benchlm.ai/benchmarks/osWorldVerified) · Updated 2026-11-04 · Total models: 37*
 <!-- AUTO:END slug=osWorldVerified -->
 
 ### BrowseComp
@@ -140,7 +140,7 @@ Web-research agents. Models search, inspect sources, gather evidence, and return
 | :-: | :-- | :-- | :-: | --: |
 | 1 | [Atria Dawn Preview](https://benchlm.ai/models/atria-dawn-preview) | Shanghai Artificial Intelligence Laboratory | Open | 92.5% |
 | 2 | [GPT-5.6 Sol](https://benchlm.ai/models/gpt-5-6-sol) | OpenAI | Closed | 92.2% |
-| 3 | [Kimi K3.1 Pro](https://benchlm.ai/models/kimi-3-1-pro) | Moonshot AI | Pending | 92.1% |
+| 3 | [Kimi K3.1 Pro](https://benchlm.ai/models/kimi-3-1-pro) | Moonshot AI | Open | 92.1% |
 | 4 | [Ling 3.1 Flash](https://benchlm.ai/models/ling-3-1-flash) | InclusionAI | Open | 91.7% |
 | 5 | [GPT-6 Astra](https://benchlm.ai/models/gpt-6-astra) | OpenAI | Closed | 91.5% |
 | 6 | [Kimi K3](https://benchlm.ai/models/kimi-k3) | Moonshot AI | Open | 91.2% |
@@ -149,7 +149,7 @@ Web-research agents. Models search, inspect sources, gather evidence, and return
 | 9 | [GPT-5.4 Pro](https://benchlm.ai/models/gpt-5-4-pro) | OpenAI | Closed | 89.3% |
 | 10 | [Step 5 Preview](https://benchlm.ai/models/step-5-preview) | StepFun | Open | 88.7% |
 
-*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-10-29 · Total models: 62*
+*Source: [https://benchlm.ai/benchmarks/browseComp](https://benchlm.ai/benchmarks/browseComp) · Updated 2026-11-04 · Total models: 62*
 <!-- AUTO:END slug=browseComp -->
 
 <br>
@@ -192,18 +192,18 @@ Expert-level questions across all academic domains. Designed to be hard for fron
 <!-- AUTO:START slug=hle lang=en -->
 | Rank | Model | Provider | License | Score |
 | :-: | :-- | :-- | :-: | --: |
-| 1 | [Kimi K3.1 Pro](https://benchlm.ai/models/kimi-3-1-pro) | Moonshot AI | Pending | 70.0% |
+| 1 | [Kimi K3.1 Pro](https://benchlm.ai/models/kimi-3-1-pro) | Moonshot AI | Open | 70.0% |
 | 2 | [Claude Fable 5.1](https://benchlm.ai/models/claude-fable-5-1) | Anthropic | Closed | 65.0% |
 | 3 | [Claude Opus 5](https://benchlm.ai/models/claude-opus-5) | Anthropic | Closed | 64.7% |
 | 4 | [Claude Mythos 5](https://benchlm.ai/models/claude-mythos-5) | Anthropic | Closed | 64.5% |
 | 5 | [Muse Spark 1.1](https://benchlm.ai/models/muse-spark-1-1) | Meta | Closed | 62.1% |
-| 6 | [GPT-5.4 Pro](https://benchlm.ai/models/gpt-5-4-pro) | OpenAI | Closed | 58.7% |
-| 7 | [Claude Opus 4.8](https://benchlm.ai/models/claude-opus-4-8) | Anthropic | Closed | 57.9% |
-| 8 | [Claude Sonnet 5](https://benchlm.ai/models/claude-sonnet-5) | Anthropic | Closed | 57.4% |
-| 9 | [GPT-5.5 Pro](https://benchlm.ai/models/gpt-5-5-pro) | OpenAI | Closed | 57.2% |
-| 10 | [Apodex 1.1](https://benchlm.ai/models/apodex-1-1) | Apodex | Closed | 56.1% |
+| 6 | [Hy4](https://benchlm.ai/models/hy4) | Tencent | Pending | 59.1% |
+| 7 | [GPT-5.4 Pro](https://benchlm.ai/models/gpt-5-4-pro) | OpenAI | Closed | 58.7% |
+| 8 | [Claude Opus 4.8](https://benchlm.ai/models/claude-opus-4-8) | Anthropic | Closed | 57.9% |
+| 9 | [Claude Sonnet 5](https://benchlm.ai/models/claude-sonnet-5) | Anthropic | Closed | 57.4% |
+| 10 | [GPT-5.5 Pro](https://benchlm.ai/models/gpt-5-5-pro) | OpenAI | Closed | 57.2% |
 
-*Source: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · Updated 2026-10-29 · Total models: 78*
+*Source: [https://benchlm.ai/benchmarks/hle](https://benchlm.ai/benchmarks/hle) · Updated 2026-11-04 · Total models: 79*
 <!-- AUTO:END slug=hle -->
 
 <br>
