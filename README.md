@@ -288,6 +288,7 @@ PRs welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Add a benchmark by editi
 - [benchlm.ai](https://benchlm.ai) — canonical source
 - [Awesome Quant AI](https://github.com/leoncuhk/awesome-quant-ai) — sister list
 - [Artificial Analysis](https://artificialanalysis.ai/) — alternative aggregator (price/perf focus)
+- [ModelBenchmark](https://modelbenchmark.io/) — independent composite rankings from 16 public benchmarks, with prices and specs
 - [LMArena](https://lmarena.ai/) — pairwise human preference
 
 ## License
