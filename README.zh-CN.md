@@ -288,6 +288,7 @@ GitHub Actions workflow 每日 02:00 UTC 运行,抓源页、解析榜单,仅当 
 - [benchlm.ai](https://benchlm.ai) —— 权威来源
 - [Awesome Quant AI](https://github.com/leoncuhk/awesome-quant-ai) —— 姊妹项目
 - [Artificial Analysis](https://artificialanalysis.ai/) —— 另一聚合站(主打价格/性能)
+- [AIHOT 模型榜](https://aihot.news/leaderboard) —— 中文综合榜，可追到各项评测的原始链接。
 - [LMArena](https://lmarena.ai/) —— 人类两两偏好
 
 ## License
